@@ -1,10 +1,10 @@
-title:        Hyde
-tagline:      "Hyde, a Jekyll theme"
-url:          http://andhyde.com
+title:        Luqi Pan
+tagline:      "It's Luqi"
+# url:          http://andhyde.com
 author:
-  name:       ""
-  email:      ""
+  name:       "Luqi Pan"
+  email:      "luqi.pan@gmail.com"
 markdown:     rdiscount
-permalink:    pretty
+permalink:    /:catagories/:year-:month-:day-:title
 pygments:     true
 paginate:     5
