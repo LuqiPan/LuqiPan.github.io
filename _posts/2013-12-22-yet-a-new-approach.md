@@ -8,6 +8,8 @@ tags: []
 
 I never have learned how to apply for grad school. Yes, I'm already a master student, the fact is I still know nearly nothing about it.
 
+***
+
 ##Jeff's page
 
 Several weeks ago, Jeff's [page](http://jeffhuang.com/rethinking_the_phd_application.html) made it on the top of Hacker News. He proposed a new way of applying for Ph.D which invoked a lot of discussion.
@@ -19,6 +21,8 @@ But really, I don't think having more years of research experience necessarily m
 So what is the right way?
 
 Before talking about this, I think there is another question worth asking- why Ph.D?
+
+***
 
 ##What do you love?
 
@@ -35,6 +39,8 @@ Shriram was doing Computational Biology in his first year of graduate school. It
 We may not be this lucky. First of all, there are so many papers nowadays, it will be quite lucky if you pick up a paper and find it actually clicks with you. Second, even if you find the paper, what are the odds that the author is right in your dept or nearby?
 
 However, this shouldn't stop you from finding things that you love. It's harder, but it's not impossible!
+
+***
 
 ##Yet another approach(es)
 
@@ -61,6 +67,8 @@ Lots of people do essentially the same thing. Steve Jobs, Elon Musk... the list 
 ###Or, the classical thing
 
 Or you can do what others usually doing, asking professors if you can work with them, and pray for good. Lots of people do the same, but who's to say that things done by **most** people are the **"right"** thing?
+
+***
 
 ##Conclusion
 
