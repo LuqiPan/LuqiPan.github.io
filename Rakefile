@@ -41,6 +41,5 @@ task :post do
     post.puts "category: \"#{category.gsub(/-/,' ')}\""
     post.puts "tags: #{tags}"
     post.puts "---"
-    post.puts "{% include comment %}"
   end
 end # task :post
