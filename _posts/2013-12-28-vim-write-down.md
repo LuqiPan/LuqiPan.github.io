@@ -6,11 +6,12 @@ category: "Vim"
 tags: []
 ---
 
+##Modes
 :help usr_toc #Table of contents of the reference manual
 
 :help index
 
-About commands in insert mode
+###Insert mode
 
 :help inserting
 
