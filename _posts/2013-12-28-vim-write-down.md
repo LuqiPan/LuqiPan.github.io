@@ -221,4 +221,75 @@ help
 
     :help buffer-list
 
+###Window
 
+switch between windows
+
+    ctrl-w <motion key>   #w means 'w'indows
+
+cycle between windows
+
+    ctrl-w ctrl-w
+
+same file, different parts
+
+    :sp     #'sp'lit window
+    ctrl-w s
+
+vertical split
+
+    :vsp
+    ctrl-w v
+
+'r'otate the windows
+
+    ctrl-w r
+
+move current window to the topmost position
+
+    ctrl-w K
+
+resize to num lines long
+
+    :resize num
+
+make current window as big as possible
+
+    ctrl-w _
+
+make all windows 'equal' in height again
+
+    ctrl-w =
+
+help manual
+
+    :help windows
+
+###Tabs
+
+open a new tab
+
+    :tabnew
+
+switch between tabs
+    
+    gt    #'g'o to the next 't'ab
+    gT    #opposite direction
+
+close a tab
+
+    :tabc
+    :q
+
+open text in a new tab instead
+
+    :help tabpage
+    =>:tab help tabpage
+
+tab reorder
+
+    :tabmove <num>
+
+help manual
+
+    :help tabpage
