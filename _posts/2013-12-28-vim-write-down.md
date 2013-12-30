@@ -7,76 +7,132 @@ tags: []
 ---
 
 ##Modes
-:help usr_toc #Table of contents of the reference manual
+Table of contents of the reference manual
 
-:help index
+    :help usr_toc 
+
+Index of manual
+
+    :help index
 
 ###Insert mode
 
-:help inserting
-
-:help replacing
+    :help inserting
+    :help replacing
 
 ###Switching modes
 
-:help mode-switching
+    :help mode-switching
 
 ##Moving around
 
 ###Jump within window
 
-H- ('h'igh)first line of the window
+('H'igh)first line of the window
 
-M- Middle of the window
+    H
 
-L- ('l'ow)last line of the window
+Middle of the window
 
-###Word-motions
+    M
 
-:help word-motions
+('L'ow)last line of the window
+
+    L
+
+###help-motions
+
+    :help word-motions
+    :help cursor-motions
 
 ###Sentence wise
 
-')'- next sentence
+next sentence
 
-'('- previous sentence
+    )
+
+previous sentence
+
+    (
 
 ###Paragraph wise
-'}'- next paragraph
+next paragraph
 
-'{'- previous paragraph
+    }
 
-:help cursor-motions
+previous paragraph
+
+    {
+
 
 ###Mark
 
-m(a-zA-Z)- create a mark
+create a mark
 
-'(a-zA-Z)- jump to the mark
+    m(a-zA-Z) 
+
+jump to the mark
+
+    '(a-zA-Z) 
 
 ###Jump around
-ctrl-o- jump back to previous location
+jump back to previous location
 
-ctrl-i- jump forward to next location
+    ctrl-o 
+
+jump forward to next location
+
+    ctrl-i 
 
 ###Parts of the text
 
-v ap- visual select a paragraph
+visual select a paragraph
 
-~- flip the case
+    vap
 
-aw- a word
+a word
 
-a"- a quoted string
+    aw
 
-ab- a block
+a quoted string
 
-####help
-:help object-motions
+    a"
 
-:help text-objects
+a block
 
-:help various-motions
+    ab
 
-:help motion
+flip the case
 
+    ~
+
+####Some help
+    :help object-motions
+    :help text-objects
+    :help various-motions
+    :help motion
+
+###Help
+
+List of contents of the entire user manual
+
+    :help user-manual
+
+###:helpgrep
+
+    :helpgrep {Beginning of a world}
+
+Navigate
+
+    :cnext 
+    :cprev
+
+Whole list
+
+    :clist
+
+###keywordprg
+
+Don't quite know it
+
+    :let &keywordprg=':help'
