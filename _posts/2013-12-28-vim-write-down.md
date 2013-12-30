@@ -28,7 +28,7 @@ Index of manual
 
 ###Jump within window
 
-('H'igh)first line of the window
+'H'igh- first line of the window
 
     H
 
@@ -36,7 +36,7 @@ Middle of the window
 
     M
 
-('L'ow)last line of the window
+'L'ow- last line of the window
 
     L
 
@@ -136,3 +136,55 @@ Whole list
 Don't quite know it
 
     :let &keywordprg=':help'
+
+##Editing Basics
+
+###Swap
+
+    :help swap-file
+
+###Directory
+
+Change Vim directory
+
+    :cd
+
+Print Vim working directory
+
+    :pwd
+
+###Swap tricks
+
+Swap 2 characters
+
+    xp
+
+Swap 2 words
+
+    dwwP
+
+###Time machine
+
+Travel between time
+
+    :earlier 4m
+    :later 45s
+    :undo 5
+    :undolist
+
+manual for it
+    :help :undolist
+    :help undo-redo
+    :help usr_32.txt
+
+###Search
+
+search for exact word
+
+    /\<word\>
+
+search for number
+
+    /\d   #1 digit
+    /\d\+ #1 or more digits
+    /\d\* #0 or more digits
