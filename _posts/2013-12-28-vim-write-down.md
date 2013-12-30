@@ -188,3 +188,37 @@ search for number
     /\d   #1 digit
     /\d\+ #1 or more digits
     /\d\* #0 or more digits
+
+manual
+
+    :help pattern
+
+##Multiplicity
+
+###Fold
+
+    :set foldmethod=indent
+    :nnoremap <space> za
+    :help folding
+
+###Buffer
+
+open file
+
+    :e filename #open file
+    :b num      #switch to buffer 1
+
+buffer list
+
+    :buffers
+    :ls
+
+delete buffer
+
+    :bd num
+
+help
+
+    :help buffer-list
+
+
