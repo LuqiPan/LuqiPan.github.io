@@ -305,7 +305,7 @@ help manual
 
 List of available functions
 
-    :help function-list   
+    :help function-list
 
 List of features
 
@@ -317,3 +317,39 @@ Help manuals
     :help python-commands
     :help perl-using
     :help ruby-commands
+
+##Plugins
+
+###Syntax scheme
+
+manuals when writing syntax scheme
+
+    :help syntax
+    :help usr_44.txt
+    :help group-name
+    :help pattern-overview
+    :help mysyntaxfile
+    :help new-filetype
+
+redraw the screen
+
+    CTRL-L
+
+###Compiler plugin
+
+help
+
+    :help write-compiler-plugin
+    :help quickfix
+
+###Disabling plugin
+
+    vim -u NONE
+    vim -u your-minimal-initialization.vim
+
+help
+
+    :help -u
+    :help starting
+
+
