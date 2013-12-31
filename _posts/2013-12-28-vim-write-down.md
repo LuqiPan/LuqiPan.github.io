@@ -293,3 +293,27 @@ tab reorder
 help manual
 
     :help tabpage
+
+##Scripting
+
+###Macros
+
+    q(a-zA-Z)   #record a macro
+    @(a-zA-Z)   #reply a macro
+
+###Scripts
+
+List of available functions
+
+    :help function-list   
+
+List of features
+
+    :help feature-list
+
+Help manuals
+
+    :help eval
+    :help python-commands
+    :help perl-using
+    :help ruby-commands
