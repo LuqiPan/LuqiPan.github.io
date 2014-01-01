@@ -1,11 +1,24 @@
+# Setup
 title:        Luqi Pan
 tagline:      "Luqi Pan"
 author:
   name:       "Luqi Pan"
   email:      "luqi.pan@gmail.com"
-markdown:     rdiscount
-permalink:    /:categories/:year-:month-:day-:title
-pygments:     true
-paginate:     5
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Pagination
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/poole/hyde
