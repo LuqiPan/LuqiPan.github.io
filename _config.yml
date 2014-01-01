@@ -4,7 +4,8 @@ tagline:      "Luqi Pan"
 author:
   name:       "Luqi Pan"
   email:      "luqi.pan@gmail.com"
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+  github:     https://github.com/LuqiPan
+description:      Not anything, not yet.</p><p class="lead" style="color:white">Worry for the bear! </p><p class="lead" style="color:white">Keep calm and carry on.
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 # Dependencies
