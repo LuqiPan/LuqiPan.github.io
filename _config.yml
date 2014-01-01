@@ -5,7 +5,7 @@ author:
   name:       "Luqi Pan"
   email:      "luqi.pan@gmail.com"
   github:     https://github.com/LuqiPan
-description:      Not anything, not yet.</p><p class="lead" style="color:white">Worry for the bear! </p><p class="lead" style="color:white">Keep calm and carry on.
+description:      Not anything, not yet. </p></li><li class="lead" >Worry for the bear! </p></li><li class="lead" >Keep calm and carry on.</p>
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 # Dependencies
