@@ -455,4 +455,21 @@ enforce pure tabs within certain file
     # vim: noexpandtab
     (put within the first 2 lines or last 2 lines)
 
+###Dr.Chip's plugins
+
+Need to apply it
+
+###Community
+
+[mailing list](http://www.vim.org/maillist.php#vim)
+
+[tips](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
+
+##What next
+
+[Best of Vim Tips](http://rayninfo.co.uk/vimtips.html)
+
+    :help user-manual
+    :help new-7
+
 
