@@ -78,11 +78,11 @@ jump to the mark
 ###Jump around
 jump back to previous location
 
-    ctrl-o 
+    CTRL-o 
 
 jump forward to next location
 
-    ctrl-i 
+    CTRL-i 
 
 ###Parts of the text
 
@@ -225,29 +225,29 @@ help
 
 switch between windows
 
-    ctrl-w <motion key>   #w means 'w'indows
+    CTRL-w <motion key>   #w means 'w'indows
 
 cycle between windows
 
-    ctrl-w ctrl-w
+    CTRL-w CTRL-w
 
 same file, different parts
 
     :sp     #'sp'lit window
-    ctrl-w s
+    CTRL-w s
 
 vertical split
 
     :vsp
-    ctrl-w v
+    CTRL-w v
 
 'r'otate the windows
 
-    ctrl-w r
+    CTRL-w r
 
 move current window to the topmost position
 
-    ctrl-w K
+    CTRL-w K
 
 resize to num lines long
 
@@ -255,11 +255,11 @@ resize to num lines long
 
 make current window as big as possible
 
-    ctrl-w _
+    CTRL-w _
 
 make all windows 'equal' in height again
 
-    ctrl-w =
+    CTRL-w =
 
 help manual
 
@@ -351,5 +351,99 @@ help
 
     :help -u
     :help starting
+
+##Programmes Editor
+
+###Syntax highlighting
+
+pipe Unix shell output to Vim
+
+    cmd | vim -R -
+    # end dash tells Vim to read from standard input
+
+###Bounce
+jump to corresponding curly bracket, or between the start and end of a block
+
+    %
+
+###Shell
+
+access a full-fledged shell
+
+    :sh
+
+run external filters for current text
+
+    :%!sort
+    # sort current content
+
+###Jumping around
+
+open the file(position your cursor on a file name)
+
+    gf
+
+go to the local definition of the variable(cursor on variable name)
+
+    gd
+
+go to the global declaration
+
+    gD
+
+next { in the first column
+
+    ]]
+
+display all lines that contain the keyword under the cursor
+
+    [I
+
+help
+
+    :help object-motions
+    :help 29.3
+    :help 29.4
+    :help 29.5
+
+###Browsing code
+
+####File system
+
+    :Vex
+    :Sex
+
+####ctags
+
+open taglist window
+
+    :TlistToggle
+    
+jump to definition of 
+
+    :tag foo
+    
+jump to definition of symbol under the cursor
+
+    CTRL-]
+
+return to previous code you were reading
+
+    CTRL-t
+
+jump to definition in a split window
+
+    CTRL-w ]
+
+move between matching tags
+
+    :tnext
+    :tprev
+    :tfirst
+    :tlast
+
+help
+
+    :help taglist-intro
 
 
