@@ -446,4 +446,13 @@ help
 
     :help taglist-intro
 
+##More
+
+###Modeline
+
+enforce pure tabs within certain file
+
+    # vim: noexpandtab
+    (put within the first 2 lines or last 2 lines)
+
 
