@@ -13,7 +13,7 @@ markdown:         redcarpet
 pygments:         true
 
 # Permalinks
-permalink:        pretty
+permalink:        /:year/:month/:title.html
 
 # Pagination
 paginate:         5
