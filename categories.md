@@ -3,7 +3,10 @@ layout: page
 title: Categories
 ---
 
-
+{% comment %}
+Thanks to
+http://stackoverflow.com/questions/9593788/creating-categories-on-jekyll-driven-site
+{% endcomment %}
 {% for cat in site.categories %}
   <h3>{{cat[0]}}</h3>
   <ul>
