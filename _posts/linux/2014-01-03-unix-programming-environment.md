@@ -121,4 +121,12 @@ start command at some time
     ...
     CTRL-d
 
+##Chapter.2 The File System
+
+octal dump
+
+    od -c   #character
+    od -b   #octal numbers
+    od -x   #hex numbers
+
 

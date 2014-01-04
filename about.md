@@ -3,6 +3,7 @@ layout: page
 title: About me
 date: Sun Dec 15 01:17:41 EST 2013
 ---
+***
 
 I’m a Master candidate in CS @ Brown. And there’s tons of fun studying here.
 
