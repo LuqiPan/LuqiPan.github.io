@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Contact
-date: Tue Dec 31 18:30:24 PST 2013
 ---
 
 ***
