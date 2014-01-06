@@ -196,4 +196,38 @@ the black hole:
 
     /dev/null
 
+##Chapter.3 Using the Shell
 
+###3.1 Command line structure
+
+tee command: save intermediate output to a file
+
+A timer:
+
+    (sleep 300; echo Tea is ready) &    # echo in 5 mins
+
+###3.2 Metacharcters
+
+    *   #any string
+    ?   #any single character
+    [0-9a-z]    #character from range
+
+    `command`   output replaces `command`
+    (command)   run command in a sub-shell
+    {command}   run command in current shell
+    
+    $1, $2  first, second argument
+    
+    '...'   literally
+    "..."   literally after $, `...` and \ interpreted
+
+    p1 && p2    run p1; if successful, run p2
+    p1 || p2    run p1; if unsuccessful, run p2
+
+###3.3 Creating new commands
+
+###3.4 Command arguments and parameters
+
+###3.5 Program output as arguments
+
+###3.6 Shell variables
