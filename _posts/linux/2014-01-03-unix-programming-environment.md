@@ -231,3 +231,37 @@ A timer:
 ###3.5 Program output as arguments
 
 ###3.6 Shell variables
+
+runs command in current shell:
+    
+    .command
+
+export: make the value of a variable accessible in sub-shells
+
+###3.7 More on I/O redirection
+
+direct the standard error output into a file
+
+    command 2>filename
+
+put the standard error on the same stream as the standard output
+
+    command >filename 2>&1
+
+###3.8 Looping in shell programs
+
+###3.9 bundle: putting it all together
+
+# bundle: group files into distribution package
+
+    echo '# To unbundle, sh this file'
+
+    for i
+    do
+        echo "echo $i 1>&2"
+        echo "cat >$i <<'End of $i'"
+        cat $i
+        echo "End of $i"
+    done
+
+

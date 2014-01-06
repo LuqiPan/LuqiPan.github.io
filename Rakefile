@@ -28,7 +28,7 @@ task :post do
     puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
     exit -1
   end
-  filedir = File.join(CONFIG['posts'], category)
+  filedir = File.join(CONFIG['posts'], category).downcase
   FileUtils.mkdir(filedir) unless File.directory?(filedir)
   filename = File.join(filedir, "#{date}-#{slug}.#{CONFIG['post_ext']}")
   if File.exist?(filename)

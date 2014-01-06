@@ -299,7 +299,7 @@ help manual
 ###Macros
 
     q(a-zA-Z)   #record a macro
-    @(a-zA-Z)   #reply a macro
+    @(a-zA-Z)   #replay a macro
 
 ###Scripts
 
