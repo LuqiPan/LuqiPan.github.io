@@ -123,10 +123,77 @@ start command at some time
 
 ##Chapter.2 The File System
 
+###2.1 Basics of files
 octal dump
 
     od -c   #character
     od -b   #octal numbers
     od -x   #hex numbers
+
+###2.2 What's in a file
+###2.3 Directories and filenames
+
+disc space used(listing all the files in current directory, pipe it to grep to find a specific file)
+
+    du
+    du -a   #all files in a directory
+
+###2.4 Permissions
+3 kinds of permissions:
+
+    read, write, execute
+
+different people:
+
+    you, group, others
+
+permission string:
+
+    -   indicates it's an ordinary file
+    d   indicates it's a directory
+    rws s: when the command is run, it is to be given the permissions corresponding to the file owner
+
+directory permission:
+
+    r   "read" e.g. ls
+    w   "write" create and delete files in this dir
+        even if you don't have write permission to that file, you can delete it
+    x   "search" 
+    
+chmod
+    
+    octal:  4 for read, 2 for write and 1 for execute
+    +:      turns a permission on
+    -:      turns a permission off
+    
+changing permissions on the directory doesn't change its modification date
+
+###2.5 Inodes  
+three times:
+
+    modified(written) time, used(read or executed) time, (permission) changed time
+
+more on ls
+
+    ls -t   #sorts the file according to time(default last modification)
+    -u      #used time
+    -c      #changed time
+    ls -i   #the i-number in decimal
+
+###2.6 The directory hierarchy
+###2.7 Device
+
+permission string:
+    
+    c   #stands for character
+    b   #stands for block
+
+disc free space:
+
+    df
+
+the black hole:
+
+    /dev/null
 
 
