@@ -252,7 +252,7 @@ put the standard error on the same stream as the standard output
 
 ###3.9 bundle: putting it all together
 
-# bundle: group files into distribution package
+    # bundle: group files into distribution package
 
     echo '# To unbundle, sh this file'
 
@@ -263,5 +263,25 @@ put the standard error on the same stream as the standard output
         cat $i
         echo "End of $i"
     done
+
+## Chapter.4 Filters
+
+###4.1 The grep family
+
+    grep -n #print line numbers
+    grep -v #invert the sense of the test
+    grep -y #smart case matching
+
+always a good idea to enclose grep patterns in single quotes
+
+regular expressions:
+
+    [^0-9]  #any non-digit
+    .       #match any one character
+    *       #closure operator- any number(including 0) of successive matches
+    .*      #anything up to a new line
+    .*x     #anything end with x
+
+####grep family: fgrep, egrep
 
 
