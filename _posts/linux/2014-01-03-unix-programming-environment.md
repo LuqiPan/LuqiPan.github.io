@@ -284,4 +284,44 @@ regular expressions:
 
 ####grep family: fgrep, egrep
 
+###4.2 Other filters
 
+####sort
+
+    sort -f #case insensitive
+    sort -d #letters, digits and blanks only
+    sort -n #by numeric value
+    sort -r #reverse
+    sort -u #unique
+
+####uniq
+    
+    uniq -d #only print duplicated
+    uniq -u #only print unique
+    uniq -c #number of occurrences
+
+####comm- compare
+
+print 3 columns of output: lines occur only in f1, occur only in f2, occur in both
+
+    comm f1 f2
+
+####tr- translate characters
+
+####an idiom
+
+    sort | uniq -c | sort -n
+
+###4.3 The stream editor sed
+
+ind- stick a bat at the beginning of each line:
+
+    sed 's/^/	/' $*       #Every line
+    sed '/./s/^/	/' $*   #Non-empty line
+    sed '/^$/!s/^/	/'  $*  #Non-empty line
+
+###4.4 The awk pattern scanning and processing language
+
+###4.5 Good files and good filters
+
+##Chapter.5 Shell Programming
