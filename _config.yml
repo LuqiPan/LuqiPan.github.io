@@ -6,7 +6,7 @@ author:
   email:      "luqi.pan@gmail.com"
   github:     https://github.com/LuqiPan
 description:      Not anything, not yet. </p></li><li class="lead" >Worry for the bear! </p></li><li class="lead" >Keep calm and carry on.</p>
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "insert-modified.rb"]
 
 # Dependencies
 markdown:         redcarpet

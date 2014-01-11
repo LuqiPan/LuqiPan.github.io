@@ -43,6 +43,7 @@ task :post do
     post.puts 'description: ""'
     post.puts "category: \"#{category.gsub(/-/,' ')}\""
     post.puts "tags: #{tags}"
+    #post.puts "modified: \"#{Time.now.strftime("%A, %d %b %Y, %H:%M")}\""
     post.puts "---"
   end
 end # task :post
