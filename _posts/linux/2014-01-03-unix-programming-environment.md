@@ -328,4 +328,41 @@ ind- stick a bat at the beginning of each line:
 
 ###5.1 Customizing the cal command
 
+Shell Built-in Variables(P136)
+
+Shell Pattern Matching Rules(P137)
+
+###5.2 Which command is which?
+
+A smart use of || and &&
+```bat
+test -f filename || echo 'file 'filename' does not exist'
+# is equivalent to
+if test ! -f filename
+then
+    echo 'file 'filename' does not exist'
+fi
+```
+
+###5.3 while and until loops: watching for things
+
+":" is a shell built-in command that does nothing but evaluate its arguments and return "true".
+
+####Evaluating variables
+Examine if the variable is defined or not, if not, print message:
+
+    ${var?message}
+
+Return value if not defined:
+
+    ${var-value}
+
+Return value and set var to value if not defined:
+
+    ${var=value}
+
+Return thing if var is defined or nothing:
+
+    ${var+thing}
+
 
