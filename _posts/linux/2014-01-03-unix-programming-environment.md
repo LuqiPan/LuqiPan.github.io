@@ -335,6 +335,7 @@ Shell Pattern Matching Rules(P137)
 ###5.2 Which command is which?
 
 A smart use of || and &&
+
 ```bat
 test -f filename || echo 'file 'filename' does not exist'
 # is equivalent to
@@ -364,5 +365,16 @@ Return value and set var to value if not defined:
 Return thing if var is defined or nothing:
 
     ${var+thing}
+
+###5.4 Traps: catching interrupts
+
+###5.5 Replacing a file: overwrite
+
+    sort file -o file
+    # sorting the file and output to the same file
+
+###5.6 zap: killing processes by name
+
+###5.7 The pick command: blanks vs. arguments
 
 
