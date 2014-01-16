@@ -377,4 +377,11 @@ Return thing if var is defined or nothing:
 
 ###5.7 The pick command: blanks vs. arguments
 
+About $* and $@:(P173)
+
+###5.8 The news command: community service messages
+
+### 5.9 get and put: tracking file changes
+
+### 5.10 A look back
 
