@@ -472,4 +472,9 @@ Need to apply it
     :help user-manual
     :help new-7
 
+***
+###Some tricks
 
+Cancel search highlight
+
+    :noh
