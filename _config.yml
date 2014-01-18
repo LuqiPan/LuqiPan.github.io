@@ -9,7 +9,7 @@ description:      Not anything, not yet. </p></li><li class="lead" >Worry for th
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "insert-modified.rb"]
 
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 pygments:         true
 
 # Permalinks
