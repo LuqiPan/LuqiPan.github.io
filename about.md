@@ -5,7 +5,7 @@ title: About me
 
 ***
 
-I’m a Master candidate in CS @ Brown. And there’s tons of fun studying here.
+I’m a Master student in CS @ Brown. And there’s tons of fun studying here.
 
 Several days ago, Professor Franco gave us a farewell lecture revisiting half a century of Computer Science. It’s really thrilled to be in part of it, and I’m still so young!
 
