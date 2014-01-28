@@ -41,12 +41,13 @@ tags: []
 
 - creates a new process to replace the program with a new one
 - execl(name of file, name of program, command-line arguments terminating with 0)
-- **What if the size doesn't match up**
+- **What if the size doesn't match up?**
+    The new process image will have different address spaces for text, data, BSS, Dynamic and Stack according to the new process.
 
 ####File Descriptors
 
-- **What if we maliciously change the fd**
-- **How many file descriptor table**
+- **How many file descriptor table?**
+    Each process have different file descriptor table residing in the shell
 - Both file descriptors refer to the same context info
 
         close(1);
