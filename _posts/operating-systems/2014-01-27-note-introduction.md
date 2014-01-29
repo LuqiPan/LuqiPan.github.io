@@ -80,3 +80,8 @@ execve(const char *path, char *const argv[], char*const envp[]);
 - envp
     - Environment pointer, null-terminated
     - see environ(7)
+
+####Bear in mind: some realations
+
+- Every time you malloc, you have to free
+- Every time you open, think about close
