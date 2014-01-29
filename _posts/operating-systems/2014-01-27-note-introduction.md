@@ -65,3 +65,18 @@ tags: []
 
 - Hard link: link system call or ln
 - Symbol link: symlink system call or ln -s
+
+####execve
+
+
+```
+execve(const char *path, char *const argv[], char*const envp[]);
+```
+
+- path is the path to the program
+- argv 
+    - The first element in argv is the name of the executed program(eg: last component of path, or whatever)
+    - The rest elements in args are argumentlist, terminated by NULL
+- envp
+    - Environment pointer, null-terminated
+    - see environ(7)
