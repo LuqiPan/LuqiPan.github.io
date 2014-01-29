@@ -25,3 +25,7 @@ Name -> lone Addr
 ###?Why I have different result with the book?
 
 **pay attention to the address mapping change in the Book definition**
+
+###Some lessons
+
+- start from a simple model, add more constraints as needed
