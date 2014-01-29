@@ -23,3 +23,5 @@ Name -> lone Addr
 {n.^(b.addr) & Addr}
 
 ###?Why I have different result with the book?
+
+**pay attention to the address mapping change in the Book definition**
