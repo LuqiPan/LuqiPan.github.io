@@ -47,6 +47,14 @@ pthread_create
 - binary semaphores
 - counting semaphres
 
+####Conditional variables
+
+- P67: why not
+```
+if --writers == 0
+```
+- P70: Now when the waiting threads wake up, they will find the guard false....
+
 ####Bear in mind
 
 1. it's unsafe to make more than 1 call to _pthread_join_ on any particular thread
