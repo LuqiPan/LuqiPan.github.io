@@ -55,7 +55,22 @@ if --writers == 0
 ```
 - P70: Now when the waiting threads wake up, they will find the guard false....
 
+####async-signal
+
+- fork
+- _exit
+- open
+- close
+- read
+- write
+- sem_post
+
+####Question
+
+- POSIX cancellation
+
 ####Bear in mind
 
 1. it's unsafe to make more than 1 call to _pthread_join_ on any particular thread
 2. for each call to _pthread_create_ there should be exactly one call to either _pthread_join_ or _pthread_detach_.
+3. _pthread_cleanup_push_ must match exactly with _pthread_cleanup_pop_
