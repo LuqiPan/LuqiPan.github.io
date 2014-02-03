@@ -46,3 +46,57 @@ A structure that relates atoms
 ###question
 
 - P41 why not higher-order
+
+***
+
+###Feb 3 Class
+
+####Binary relation
+
+- reachable from b:
+```
+b.^next
+```
+- reachable from b(including b itself):
+```
+b.*next
+```
+- reachable to b(reverse):
+```
+b.~next
+```
+
+####Alloy convention
+
+- Alloy thinks
+```
+some x: A
+```
+is
+```
+some x : one A
+```
+- Alloy thinks
+```
+some x: A->B
+```
+is
+```
+some x : set A->B
+```
+
+####A gotcha
+
+consider
+```
+^(~next) + ^next
+```
+and
+```
+^(~next + next)
+```
+
+They mean total different things!
+
+- The former is all ancesters and descendants
+- The latter is all valid boards
