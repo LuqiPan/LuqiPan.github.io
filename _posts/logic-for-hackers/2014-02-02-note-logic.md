@@ -100,3 +100,9 @@ They mean total different things!
 
 - The former is all ancesters and descendants
 - The latter is all valid boards
+
+####Analogy
+
+The concepts underneath Alloy shares a lot in common with relation calculus(in Database)
+
+But the set in Alloy is strictly mathematical set(eg: no duplicates). Whilst the selection operation in SQL does retrieve duplicate result, for the simple reason that de-duplicate is too time-consuming.
