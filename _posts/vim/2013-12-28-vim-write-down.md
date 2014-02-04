@@ -478,3 +478,18 @@ Need to apply it
 Cancel search highlight
 
     :noh
+
+###Vim/Cscope
+
+search: ```CTRL-<space> s```
+
+command line search: ```:scscope find symbol foo``` or ```:scs f s foo```
+
+go back: ```CTRL-t```
+
+####types of search
+
+- ```s```find all uses of symbol
+- ```g```global definition
+- ```c```all calls to a function
+- ```opens the filename under the cursor
