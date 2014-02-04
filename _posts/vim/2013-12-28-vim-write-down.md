@@ -492,4 +492,4 @@ go back: ```CTRL-t```
 - ```s```find all uses of symbol
 - ```g```global definition
 - ```c```all calls to a function
-- ```opens the filename under the cursor
+- ```f```opens the filename under the cursor
