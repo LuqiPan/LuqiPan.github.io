@@ -106,3 +106,16 @@ They mean total different things!
 The concepts underneath Alloy shares a lot in common with relation calculus(in Database)
 
 But the set in Alloy is strictly mathematical set(eg: no duplicates). Whilst the selection operation in SQL does retrieve duplicate result, for the simple reason that de-duplicate is too time-consuming.
+
+***
+
+###Notes during asgn0
+
+- The order or all and some matters
+
+###Feb 5 Class
+
+- When modeling things, don't create the model as you think or imagine, but model exactly as the real system. Or you are verifying the wrong model.
+- Eg: some course system may be synced, but some are not. Don't model it as you like, but model it exactly as the real system.
+- At the start of modeling, use as few variables as you can: you can always add more when you need it.
+- To test a pred, you need to write another pred and put it in assertion.**(question: how)**
