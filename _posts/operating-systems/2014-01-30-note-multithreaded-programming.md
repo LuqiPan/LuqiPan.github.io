@@ -74,9 +74,3 @@ if --writers == 0
 1. it's unsafe to make more than 1 call to _pthread_join_ on any particular thread
 2. for each call to _pthread_create_ there should be exactly one call to either _pthread_join_ or _pthread_detach_.
 3. _pthread_cleanup_push_ must match exactly with _pthread_cleanup_pop_
-
-***
-
-####Notes during db assignment
-
-- It's a common(if standard) approach to mask the signal you want to handle in the main thread, then create a handler thread, specifically unblocking the signal and waiting for the signal, to handle that signal.
