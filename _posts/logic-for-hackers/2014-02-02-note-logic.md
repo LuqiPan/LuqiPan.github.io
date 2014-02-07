@@ -119,3 +119,4 @@ But the set in Alloy is strictly mathematical set(eg: no duplicates). Whilst the
 - Eg: some course system may be synced, but some are not. Don't model it as you like, but model it exactly as the real system.
 - At the start of modeling, use as few variables as you can: you can always add more when you need it.
 - To test a pred, you need to write another pred and put it in assertion.**(question: how)**
+- Never believe yourself, especially you have Alloy, such a great checker which can do all the checks automatically for you
