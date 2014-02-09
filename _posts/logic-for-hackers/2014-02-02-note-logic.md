@@ -109,6 +109,15 @@ But the set in Alloy is strictly mathematical set(eg: no duplicates). Whilst the
 
 ***
 
+####3.4.1 Constants
+
+- none
+- univ
+- iden: binary relation from atom to itself
+
+
+***
+
 ###Notes during asgn0
 
 - The order or all and some matters
@@ -120,3 +129,8 @@ But the set in Alloy is strictly mathematical set(eg: no duplicates). Whilst the
 - At the start of modeling, use as few variables as you can: you can always add more when you need it.
 - To test a pred, you need to write another pred and put it in assertion.**(question: how)**
 - Never believe yourself, especially you have Alloy, such a great checker which can do all the checks automatically for you
+
+###Feb 7 Class
+
+- Domain/range restriction operator
+- Use both type and semantics to approach the problem
