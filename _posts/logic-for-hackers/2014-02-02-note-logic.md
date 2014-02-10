@@ -46,6 +46,73 @@ A structure that relates atoms
 ###question
 
 - P41 why not higher-order
+- P55 first paragraph
+- 
+
+***
+
+####3.4.1 Constants
+
+- none
+- univ
+- iden: binary relation from atom to itself
+
+####3.4.2 Set Operators
+
+- ```+``` union
+- ```&``` intersection
+- ```-``` difference
+- ```in``` subset
+- ```=``` equality
+
+####3.4.3 Relational Operators
+
+- ```->``` arrow(product)
+- ```.``` dot(join)
+- ```[]``` box(join)
+- ```~``` transpose
+- ```^``` transitive closure
+- ```*``` reflexive-transitive closure
+- ```<:``` domain restriction
+- ```:>``` range restriction
+- ```++``` override
+
+##### 3.4.3.1 Arrow product
+
+##### 3.4.3.2 Dot join
+
+database join(retain the matching elements):
+
+    id3={a,b,c: univ | a=b and b=c}
+    p..q = p.id3.q
+
+##### 3.4.3.3 Box join
+
+- ```e1[e2] is e2.e1```
+- dot binds more tightly than box
+    
+    ```a.b.c[d] is short for d.(a.b.c)```
+
+##### 3.4.3.4 Transpose
+
+*symmetric closure* of r is the smallest relation that contains r and is symmetric, and is equal to ```r+~r```
+
+##### 3.4.3.5 Transitive closure
+
+##### 3.4.3.6 Domain and range restrictions
+
+relation that maps every atom in some set s to itself:
+
+```s <: iden```
+
+##### 3.4.3.7 Override
+
+```p ++ q = p - (domain(q) <: p) + q```
+
+Usage:
+
+- Insertion of a key into a map
+- Assignment statement
 
 ***
 
@@ -120,3 +187,8 @@ But the set in Alloy is strictly mathematical set(eg: no duplicates). Whilst the
 - At the start of modeling, use as few variables as you can: you can always add more when you need it.
 - To test a pred, you need to write another pred and put it in assertion.**(question: how)**
 - Never believe yourself, especially you have Alloy, such a great checker which can do all the checks automatically for you
+
+###Feb 7 Class
+
+- Domain/range restriction operator
+- Use both type and semantics to approach the problem
