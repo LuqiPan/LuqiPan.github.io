@@ -82,3 +82,4 @@ if --writers == 0
 - It's a common(if standard) approach to mask the signal you want to handle in the main thread, then create a handler thread, specifically unblocking the signal and waiting for the signal, to handle that signal.
 - If you did not ```pthread_detach``` the thread, then you'll have to ```pthread_join``` the thread, or the resources allocated by the thread will not be collected.
 - Signal is not that hard at all, just need to figure out the current state.
+- **If you cherish your life, stay away from ```pthread_detach```!!!**
