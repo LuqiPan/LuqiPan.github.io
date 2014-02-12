@@ -12,4 +12,6 @@ tags: []
 
 ####4.1.2 Low-level kernel
 
-#####Terminals
+#####4.1.2.1 Terminals
+
+#####4.1.2.2 Network communication

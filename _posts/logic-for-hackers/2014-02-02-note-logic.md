@@ -226,8 +226,6 @@ Sum:
 
 ```sum x: e | ie```
 
-
-
 ***
 
 ###Feb 3 Class
@@ -306,3 +304,15 @@ But the set in Alloy is strictly mathematical set(eg: no duplicates). Whilst the
 
 - Domain/range restriction operator
 - Use both type and semantics to approach the problem
+
+###Feb 10 Class
+
+- Empty conjunction is always true
+    - ```pred True() {}```
+    - ```pred False() {!True}```
+- For the problem of finding all courses specific student is taking, restrict the domain is not a good idea. Convert all the constraint to restrict the range, which is student.
+
+###Feb 12 Class
+
+- Recursive multiplicity and quantifier make things really complicated and subtle.
+
