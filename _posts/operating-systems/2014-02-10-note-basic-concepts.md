@@ -10,18 +10,26 @@ tags: []
 
 ####3.1.1.1 Intel x86 stack frames
 
+#####Values in stack frame:
+
 - args
 - eip(instruction pointer)
 - ebp(caller's frame pointer)
 - saved registers
 - local variables
 
-_esp_ always points to the last item on the stack
+#####Registers:
 
-_eax_ 
+- _eip_ instruction pointer
 
-- register: return value of procedures
-- expected to be modified across calls, not saved in frame
+- _esp_ stack pointer
+
+- _ebp_ frame pointer
+
+- _eax_ 
+
+    - register: return value of procedures
+    - expected to be modified across calls, not saved in frame
 
 ####3.1.1.2 SPARC stack frames
 
