@@ -47,7 +47,7 @@ A structure that relates atoms
 
 - P41 why not higher-order
 - P55 first paragraph
-- 
+- P72 univ lone -> lone univ
 
 ***
 
@@ -113,6 +113,78 @@ Usage:
 
 - Insertion of a key into a map
 - Assignment statement
+
+***
+
+### 3.5 Constraints
+
+####3.5.1 Logical operators
+
+- **not** ```!``` negation
+- **and** ```&&``` negation
+- **or** ```||``` negation
+- **implies** ```=>``` negation
+- **iff** ```<=``` negation
+- **else** keyword:
+
+        F implies G else H
+
+    is equivalent to
+
+        (F and G) or ((not F) and H)
+- nested implications:
+        
+        C1 implies F1
+        else C2 implies F2
+        else C3 implies F3    
+
+- conditional expression
+
+        C implies E1 else E2
+
+    or
+
+        C => E1 else E2
+
+####3.5.2 Quantification
+
+- **all**
+- **some**
+- **no**
+- **lone**
+- **one**
+- **disj**
+
+####3.5.3 Higher-order quantification
+
+```univ lone -> lone univ```
+
+####3.5.4 Let expressions and constraints
+
+    let x = e | A
+
+####3.5.5 Comprehensions
+
+###3.6 Declarations and multiplicity constraints
+
+####3.6.1 Declarations
+
+    relation-name : expression
+
+####3.6.2 Set multiplicities
+
+- **set**   any number
+- **one**   exactly one
+- **lone**   zero or one
+- **some**   one or more
+
+####3.6.3 Relation multiplicities
+
+    r: A m -> n B
+
+####3.6.4 Declaration formulas
+
+
 
 ***
 
