@@ -184,6 +184,48 @@ Usage:
 
 ####3.6.4 Declaration formulas
 
+declaration formula
+
+####3.6.5 Nested multiplicities
+
+- 
+
+        r: A -> (B m -> n C)
+
+    is equivalent to:
+
+        all a: A | a.r in B m -> n C
+
+- 
+    
+        r: (A m -> n B) -> C
+
+    is equivalent to:
+
+        all c: C | r.c in A m -> n B
+
+###3.7 Cardinality and Integers
+
+Operators(functions)
+
+- **plus**  addition
+- **minus**  subtraction
+- **mul**  multiplication
+- **div**  division
+- **rem**  remainder
+
+Comparing:
+
+- **=**  equals
+- **<**  less than
+- **>**  greater than
+- **=<**  less than or equal to
+- **>=**  greater than or equal to
+
+Sum:
+
+```sum x: e | ie```
+
 
 
 ***
