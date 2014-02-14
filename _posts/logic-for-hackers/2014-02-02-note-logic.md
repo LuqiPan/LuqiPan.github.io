@@ -316,3 +316,9 @@ But the set in Alloy is strictly mathematical set(eg: no duplicates). Whilst the
 
 - Recursive multiplicity and quantifier make things really complicated and subtle.
 
+###Notes during asgn 1
+
+- When trying to substract something from a set, first make sure this something is IN the set. Or you'll substract nothing from the set.
+- When you are using number to model things, stop and think back if there is other ways. Usually there's some other ways to do it.
+- When trying to find a way to model a property, compare with things that does not have this property, and find the difference.
+- There are many properties implicitly hidden behind the combination of several predicates.
