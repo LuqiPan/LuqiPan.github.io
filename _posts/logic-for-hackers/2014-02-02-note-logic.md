@@ -322,3 +322,8 @@ But the set in Alloy is strictly mathematical set(eg: no duplicates). Whilst the
 - When you are using number to model things, stop and think back if there is other ways. Usually there's some other ways to do it.
 - When trying to find a way to model a property, compare with things that does not have this property, and find the difference.
 - There are many properties implicitly hidden behind the combination of several predicates.
+
+###Feb 14 Class
+
+- There are different formulas to constrain the same thing, but they come with different cost. Some formulas are just friendly to Alloy so it will have better performance.
+- Usually the relational style has better performance.
