@@ -38,5 +38,3 @@ tags: []
 _thread control block_ register state such as current value of the stack pointer
 
 
-
-
