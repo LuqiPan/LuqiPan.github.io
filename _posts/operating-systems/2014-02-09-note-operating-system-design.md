@@ -39,8 +39,8 @@ A side note why _pthread_detach_ doesn't free cleanly, a thread cannot free its 
 
 #####4.2.1.3 Paravirtualization
 
-###4.2.2 Microkernels
+####4.2.2 Microkernels
 
 The whole notion of microkernel seems promising, but too bad that it is never actually in the mainstream because of the performance.
 
-
+###4.3 Conclusions
