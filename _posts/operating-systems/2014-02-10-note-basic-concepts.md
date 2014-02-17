@@ -35,6 +35,6 @@ tags: []
 
 ###3.1.2 Threads and coroutines
 
-_thread control block_ register state such as current value of the stack pointer
+_thread control block_: stores register states such as current value of the stack pointer
 
 
