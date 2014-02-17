@@ -15,4 +15,5 @@ tags: []
 
 ####Questions
 
-1. Why we have to use different context for thread and context.
+1. Why the data structure for kernel thread and context in thread are different
+
