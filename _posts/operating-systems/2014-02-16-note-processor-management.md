@@ -25,3 +25,9 @@ N-to-1 model
 M-to-N model
 
 #####5.1.1.3 Scheduler Activations
+
+_upcall_: as opposite to system call, going from system code to user code.
+
+####5.1.2 A Simple Threads Implementation
+
+
