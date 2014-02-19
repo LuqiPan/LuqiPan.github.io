@@ -15,5 +15,5 @@ tags: []
 
 ####Questions
 
-1. Why the data structure for kernel thread and context in thread are different
+1. Why the data structure for kernel stack and context in thread are different?
 
