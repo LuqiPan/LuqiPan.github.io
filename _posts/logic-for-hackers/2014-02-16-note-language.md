@@ -40,3 +40,8 @@ tags: []
 ###Notes during asgn 2
 
 - I've never thought that we can use Alloy to model something like songs or lyrics. I guess it's because sentence contains logic, and Alloy can model the logic.
+
+###Feb 21 Class
+
+- Alloy only runs within the scope, so it's never exhaustive to the whole searching space. This should always be kept in mind.
+- But, bugs tend to appear with smaller scope.(not always)
