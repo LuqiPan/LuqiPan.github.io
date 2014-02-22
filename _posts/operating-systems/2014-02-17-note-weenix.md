@@ -15,7 +15,12 @@ tags: []
 3. In our model, _do_exit_ and _kthread_exit_ are the same because we only have one thread each process. Things will change if we have multi-threaded processes.
 4. _proc_kill_ and _proc_kill_all_ are only for sys_halt. So maybe we don't care about the return value?
 
+####Keep in mind
+
+1. the thread kthread_destroy destroys should not wait in any queue.
+
 ####Questions
 
 1. Why the data structure for kernel stack and context in thread are different?
-
+2. retval == NULL?
+3. do_exit works now because there is only one thread, what if MTP
