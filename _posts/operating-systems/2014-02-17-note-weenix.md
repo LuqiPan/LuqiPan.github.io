@@ -25,3 +25,6 @@ tags: []
 1. Why the data structure for kernel stack and context in thread are different?
 2. retval == NULL?
 3. do_exit works now because there is only one thread, what if MTP
+4. why can I make myself runnable and switch to other process, the kt_wchan is not NULL and should fail the KASSERT
+
+    When curthr acquire the mutex, it's waitq will contain nothing! It's acturally on the state of KT_RUN. Only when it's waiting for a mutex will it be on some waitq.
