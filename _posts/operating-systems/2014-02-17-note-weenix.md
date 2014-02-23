@@ -18,6 +18,7 @@ tags: []
 ####Keep in mind
 
 1. the thread kthread_destroy destroys should not wait in any queue.
+2. when cleanup, just destroy the struct is not enough, need to delete itself from the list.
 
 ####Questions
 
