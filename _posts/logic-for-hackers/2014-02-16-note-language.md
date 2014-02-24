@@ -33,7 +33,24 @@ tags: []
 
 ####4.2.2 Basic Field Declarations
 
+####4.2.3 Grouping Disjoint Fields
 
+###4.4 Types and Type Checking
+
+####4.4.1 Basic Types
+
+####4.4.2 Relational Types
+
+####4.4.3 Type Errors
+
+####4.4.4 Field Overloading
+
+***
+
+###Questions:
+
+1. P111 what exactly is _overapproximation_?
+2. P113 _Example_ alias?
 
 ***
 
