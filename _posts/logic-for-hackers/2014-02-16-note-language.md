@@ -51,6 +51,7 @@ tags: []
 
 1. P111 what exactly is _overapproximation_?
 2. P113 _Example_ alias?
+3. all this: Course and some this: Course
 
 ***
 
