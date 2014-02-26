@@ -63,3 +63,25 @@ tags: []
 
 - Alloy only runs within the scope, so it's never exhaustive to the whole searching space. This should always be kept in mind.
 - But, bugs tend to appear with smaller scope.(not always)
+
+###Feb 26 Class
+
+####Skolemization
+
+#####Skolem Depth:(my experiment) 
+
+- It counts ```all x: S| all y: S``` as one depth
+- Same quantifiers in sequence is 1 depth
+- top level is 0 depth
+
+#####Useful for:
+
+Debugging
+
+#####Tradeoff:
+
+![Chart showing with and without Skolemization](/public/Skolem.png "With or without skolemization")
+
+Skolem| No| Yes
+Constraints| Same| Less(some are shifted to Skolem variable)
+Fields| Same| More(to represent some constraints)
