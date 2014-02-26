@@ -30,3 +30,9 @@ tags: []
 4. why can I make myself runnable and switch to other process, the kt_wchan is not NULL and should fail the KASSERT
 
     When curthr acquire the mutex, it's waitq will contain nothing! It's acturally on the state of KT_RUN. Only when it's waiting for a mutex will it be on some waitq.
+
+###Drivers
+
+####Keep in mind
+
+1. 

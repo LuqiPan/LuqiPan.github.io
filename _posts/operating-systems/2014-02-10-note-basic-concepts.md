@@ -37,4 +37,8 @@ tags: []
 
 _thread control block_: stores register states such as current value of the stack pointer
 
+(Skip 3.1.3 & 3.1.4)
 
+##3.2 Input/Output Architectures
+
+(skip too)
