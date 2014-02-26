@@ -80,8 +80,6 @@ Debugging
 
 #####Tradeoff:
 
-![Chart showing with and without Skolemization](/public/Skolem.png "With or without skolemization")
-
 Skolem| No| Yes
 Constraints| Same| Less(some are shifted to Skolem variable)
 Fields| Same| More(to represent some constraints)
