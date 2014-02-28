@@ -83,3 +83,8 @@ Debugging
 Skolem| No| Yes
 Constraints| Same| Less(some are shifted to Skolem variable)
 Fields| Same| More(to represent some constraints)
+
+###Note during asgn 3
+
+- Don't over-think things. Just follow the first instinct.
+- The idea of representing infinity in Alloy is to be learned.
