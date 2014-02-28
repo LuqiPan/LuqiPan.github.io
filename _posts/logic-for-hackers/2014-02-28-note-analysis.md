@@ -12,11 +12,12 @@ tags: []
 
 ####5.3.2 Omitting the Generator Axiom
 
-
-
 ***
 
 ###Question
 
-1. What about ```module analysis/paramSets [t]```
+1. What about 
+    
+    ```module analysis/paramSets [t]```
+
 2. every relational expression in Alloy has a value
