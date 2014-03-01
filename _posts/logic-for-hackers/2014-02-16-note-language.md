@@ -64,6 +64,16 @@ tags: []
 - Alloy only runs within the scope, so it's never exhaustive to the whole searching space. This should always be kept in mind.
 - But, bugs tend to appear with smaller scope.(not always)
 
+###Feb 24 Class
+
+- seq vs order
+- [seq doc](http://alloy.mit.edu/alloy/documentation/quickguide/seq.html)
+- the existence of ```++``` operator
+- override module name
+
+        open util/ordering[Cats1] as trace1
+        open util/ordering[Cats2] as trace2
+
 ###Feb 26 Class
 
 ####Skolemization
