@@ -21,3 +21,23 @@ tags: []
     ```module analysis/paramSets [t]```
 
 2. every relational expression in Alloy has a value
+
+***
+
+###Feb 28 Class
+
+####Universal existential quantifier
+
+some $$x_0, x_1 ... x_{n-1}$$ |
+all $$y_0, y_1 ... y_{m-1}$$
+
+Using the bound of n will be sufficient.
+
+####The monadic fragment
+
+constraints:
+
+- pred calculus
+- only unary relations(K)
+
+Bound: $$2^k$$
