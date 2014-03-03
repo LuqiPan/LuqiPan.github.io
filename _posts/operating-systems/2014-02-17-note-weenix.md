@@ -44,3 +44,7 @@ tags: []
     Delt with using a different dbgq.
 
 2. How to handle the case about ckdtail and rhead.
+
+    off by 1 issue
+
+3. Why we only need to lock the rlock in n_tty_read?
