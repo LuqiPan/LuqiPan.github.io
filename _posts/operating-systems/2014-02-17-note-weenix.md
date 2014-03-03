@@ -36,3 +36,11 @@ tags: []
 ####Keep in mind
 
 1. 
+
+###Questions
+
+1. Why is it that if I delete something, the last char kept showing up
+    
+    Delt with using a different dbgq.
+
+2. How to handle the case about ckdtail and rhead.
