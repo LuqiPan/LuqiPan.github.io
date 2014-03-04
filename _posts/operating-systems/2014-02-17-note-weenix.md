@@ -31,6 +31,8 @@ tags: []
 
     When curthr acquire the mutex, it's waitq will contain nothing! It's acturally on the state of KT_RUN. Only when it's waiting for a mutex will it be on some waitq.
 
+5. exit a thread(use return or use kthread_exit)?
+
 ###Drivers
 
 ####Keep in mind
@@ -48,3 +50,5 @@ tags: []
     off by 1 issue
 
 3. Why we only need to lock the rlock in n_tty_read?
+4. How to deal with full buffer?
+5. How to acknowledge interrupt?
