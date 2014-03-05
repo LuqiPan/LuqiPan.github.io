@@ -51,4 +51,8 @@ tags: []
 
 3. Why we only need to lock the rlock in n_tty_read?
 4. How to deal with full buffer?
+
+    discard the newly inputted character
 5. How to acknowledge interrupt?
+
+    dma_reset(see dma.h)

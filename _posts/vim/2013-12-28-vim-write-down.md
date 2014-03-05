@@ -493,3 +493,7 @@ go back: ```CTRL-t```
 - ```g```global definition
 - ```c```all calls to a function
 - ```f```opens the filename under the cursor
+
+####auto reindent
+
+```gg=G```
