@@ -41,3 +41,18 @@ constraints:
 - only unary relations(K)
 
 Bound: $$2^k$$
+
+### Mar 7 Class
+
+domain v.s. co-domain:(Universe: 1,2,3,4,5,6...)
+
+- domain: 1 ,2 ,3 ,4 ,5 ,6...
+- co-domain: 1, 4, 9, 16...
+
+Instance:
+
+- atoms
+- functions
+- relations
+
+Propositional logic(boolean logic)
