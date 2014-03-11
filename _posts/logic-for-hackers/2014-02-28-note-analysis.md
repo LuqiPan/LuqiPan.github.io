@@ -62,3 +62,11 @@ Instance:
 - relations
 
 Propositional logic(boolean logic)
+
+### Mar 10 Class
+
+Not symmetric
+
+    run 3 expect 1
+
+What about the algorithm for Aluminum?
