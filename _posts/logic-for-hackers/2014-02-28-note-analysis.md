@@ -42,6 +42,12 @@ constraints:
 
 Bound: $$2^k$$
 
+### Mar 5 Class
+
+Syntax v.s. Semantics
+
+See my written notes
+
 ### Mar 7 Class
 
 domain v.s. co-domain:(Universe: 1,2,3,4,5,6...)
