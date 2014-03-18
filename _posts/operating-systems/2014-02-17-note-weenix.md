@@ -32,6 +32,8 @@ tags: []
     When curthr acquire the mutex, it's waitq will contain nothing! It's acturally on the state of KT_RUN. Only when it's waiting for a mutex will it be on some waitq.
 
 5. exit a thread(use return or use kthread_exit)?
+6. return value minus?
+7. examine in sched_switch if nextthread == currentthread?
 
 ###Drivers
 
