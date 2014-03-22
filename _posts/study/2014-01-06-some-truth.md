@@ -11,6 +11,8 @@ tags: []
 2. Beware of bugs in the above code; I have only proved it correct, not tried it.- Donald Knuth
 3. If you've done something twice, you're likely to do it again.
 4. The difference between theory and practice is shorter in theory than in practice.
+5. Elegance is not optional.- Richard O'Keefe
+6. Perfect is the enemy of good.- Voltairo
 
 ***
 
