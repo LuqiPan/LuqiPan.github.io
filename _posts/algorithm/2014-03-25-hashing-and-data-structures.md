@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Hashing"
+title: "Hashing and Data Structures"
 description: ""
 category: "algorithm"
 tags: []
+date: Tue Mar 25 23:55:25 EDT 2014
 ---
 
 ###Problem 1
