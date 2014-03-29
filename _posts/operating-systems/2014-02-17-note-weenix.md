@@ -41,7 +41,7 @@ tags: []
 
 1. 
 
-###Questions
+####Questions
 
 1. Why is it that if I delete something, the last char kept showing up
     
@@ -58,3 +58,11 @@ tags: []
 5. How to acknowledge interrupt?
 
     dma_reset(see dma.h)
+
+###VFS
+
+####Keep in mind
+
+1. the difference between file_t and fs_t
+
+####Questions
