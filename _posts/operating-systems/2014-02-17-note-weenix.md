@@ -66,3 +66,8 @@ tags: []
 1. the difference between file_t and fs_t
 
 ####Questions
+
+1. what does it mean if f_pos == -1
+2. figure facq and vn_ops->acquire
+3. what about vfs_is_in_use
+4. readdir
