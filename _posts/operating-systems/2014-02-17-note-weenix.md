@@ -71,3 +71,5 @@ tags: []
 2. figure facq and vn_ops->acquire
 3. what about vfs_is_in_use
 4. readdir
+5. how to initialize p_cwd in proc_t
+6. deal with const char **
