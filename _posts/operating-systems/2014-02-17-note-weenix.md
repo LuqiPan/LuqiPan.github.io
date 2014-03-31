@@ -73,3 +73,5 @@ tags: []
 4. readdir
 5. how to initialize p_cwd in proc_t
 6. deal with const char **
+7. how to kmalloc in namev
+8. any other elegant way to examine if it's directory
