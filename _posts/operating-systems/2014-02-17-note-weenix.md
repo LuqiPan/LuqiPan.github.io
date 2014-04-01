@@ -64,6 +64,8 @@ tags: []
 ####Keep in mind
 
 1. the difference between file_t and fs_t
+2. a lot things missing for do_open
+3. vput when error in namev
 
 ####Questions
 
