@@ -6,25 +6,31 @@ category: "design of computer programs"
 tags: []
 ---
 
-Happy Valley
+####Happy Valley
 
 - Happy: millions
 - Maybe: billions
 - Sad: trillions
 
-Python "is" operator
+####Python "is" operator
 
 is: same object
 ==: structurally identical
 
-Aspects
+####Aspects
 
 - Correctness
 - Efficiency
 - Debugging
 
-Aspect-oriented programming
+####List comprehensions
+
+####Aspect-oriented programming
 
 seperate out different aspects as much as possible
 
-Generator Functions
+####Generator expressions
+
+####Generator Functions
+
+####Law of Diminishing Returns
