@@ -21,6 +21,9 @@ tags: []
 2. when cleanup, just destroy the struct is not enough, need to delete itself from the list.
 3. don't forget to use the p_wait queue.(in do_waitpid and exit)
 4. test all the features that you had, don't presume that you are doing it right.
+5. idleproc-> first process
+    
+    initproc-> second process
 
 ####Questions
 
