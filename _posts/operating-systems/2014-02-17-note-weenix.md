@@ -71,6 +71,9 @@ tags: []
 3. vput when error in namev
 4. the pairing between *get/ *ref and *put
 
+- vnode->lookup: error -ENOENT
+- namev:lookup error -ENOTDIR
+
 ####Questions
 
 1. what does it mean if f_pos == -1
