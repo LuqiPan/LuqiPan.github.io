@@ -85,3 +85,4 @@ tags: []
 7. how to kmalloc in namev
 8. any other elegant way to examine if it's directory
 9. dir_namev algorithm
+10. About returning EPERM: vfs_test:292
