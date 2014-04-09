@@ -86,3 +86,12 @@ tags: []
 8. any other elegant way to examine if it's directory
 9. dir_namev algorithm
 10. About returning EPERM: vfs_test:292
+11. vnode->mknod only get the file for special devices, When and how to initialize the corresponding vnode?
+
+###S5FS
+
+####Keep in mind
+
+####Questions
+
+

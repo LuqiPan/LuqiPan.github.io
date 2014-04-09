@@ -22,7 +22,7 @@ puts "print a number: #{number}"
 ####Symbols
 
 - Starts with a colon then one or more letters
-- Less methods
+- Less methods than Strings
 
 ####Iterating
 
@@ -53,3 +53,8 @@ end
 ####Conditionals
 
 method name ending in a ```?```: return ```true``` or ```false```
+
+####chomp
+
+- get rid of the ```Enter```
+- ```gets.chomp```
