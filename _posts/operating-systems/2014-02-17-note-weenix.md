@@ -92,6 +92,17 @@ tags: []
 
 ####Keep in mind
 
+1. pin and unpin page frames when there's a chance to block
+2. mark page frame busy when in the middle of a state transitions
+3. watch out for the return value from ```pframe_get_resident```
+4. pframe_migrate: read it later
+
 ####Questions
 
-
+1. pframe_alloc: what if the pframe is already resident
+2. what's the semantics of pframe_fill
+3. what is the layout of vnode, s5fs, mmobj, pframe
+4. when should I dirty a page frame?
+5. should I pin the pframe in pframe_get when the pf is busy
+6. am I doing the right thing when get NULL from pframe_alloc call pageout deamon
+7. there's a potential in pframe_get that it falls into infinite loop of calling pageout deamon
