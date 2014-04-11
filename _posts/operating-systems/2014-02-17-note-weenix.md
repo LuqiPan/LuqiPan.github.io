@@ -96,6 +96,7 @@ tags: []
 2. mark page frame busy when in the middle of a state transitions
 3. watch out for the return value from ```pframe_get_resident```
 4. pframe_migrate: read it later
+5. dirty the page when the content is modified
 
 ####Questions
 
@@ -106,3 +107,4 @@ tags: []
 5. should I pin the pframe in pframe_get when the pf is busy
 6. am I doing the right thing when get NULL from pframe_alloc call pageout deamon
 7. there's a potential in pframe_get that it falls into infinite loop of calling pageout deamon
+8. why pin inodep then dirty_super in s5_alloc_inode
