@@ -98,6 +98,11 @@ tags: []
 4. pframe_migrate: read it later
 5. dirty the page when the content is modified
 
+####TODO
+
+- review pframe_get and the relation with s5_seek_to_block
+- review the error handling and cleaning
+
 ####Questions
 
 1. pframe_alloc: what if the pframe is already resident
@@ -108,3 +113,4 @@ tags: []
 6. am I doing the right thing when get NULL from pframe_alloc call pageout deamon
 7. there's a potential in pframe_get that it falls into infinite loop of calling pageout deamon
 8. why pin inodep then dirty_super in s5_alloc_inode
+9. what to do in s5_seek_to_block when indirectblock is 0
