@@ -114,3 +114,4 @@ tags: []
 7. there's a potential in pframe_get that it falls into infinite loop of calling pageout deamon
 8. why pin inodep then dirty_super in s5_alloc_inode
 9. what to do in s5_seek_to_block when indirectblock is 0
+10. check seekptr valid- should I do it in s5_seek_to_block?
