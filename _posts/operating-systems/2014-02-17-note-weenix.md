@@ -97,6 +97,7 @@ tags: []
 3. watch out for the return value from ```pframe_get_resident```
 4. pframe_migrate: read it later
 5. dirty the page when the content is modified
+6. the block acquired from s5_alloc_block is uninitialized
 
 ####TODO
 
@@ -115,3 +116,4 @@ tags: []
 8. why pin inodep then dirty_super in s5_alloc_inode
 9. what to do in s5_seek_to_block when indirectblock is 0
 10. check seekptr valid- should I do it in s5_seek_to_block?
+11. how to dirty the page frame that particular inode is residing in
