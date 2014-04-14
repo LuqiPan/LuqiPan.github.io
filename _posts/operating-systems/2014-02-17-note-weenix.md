@@ -98,11 +98,9 @@ tags: []
 4. pframe_migrate: read it later
 5. dirty the page when the content is modified
 6. the block acquired from s5_alloc_block is uninitialized
+7. watch out for vn_len, it can change when write to the file
 
 ####TODO
-
-- review pframe_get and the relation with s5_seek_to_block
-- review the error handling and cleaning
 
 ####Questions
 
@@ -117,3 +115,5 @@ tags: []
 9. what to do in s5_seek_to_block when indirectblock is 0
 10. check seekptr valid- should I do it in s5_seek_to_block?
 11. how to dirty the page frame that particular inode is residing in
+12. nice extension for s5_remove_dirent?
+13. can we always assume that vnode->vn_len == inode->s5_size
