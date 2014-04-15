@@ -99,6 +99,7 @@ tags: []
 5. dirty the page when the content is modified
 6. the block acquired from s5_alloc_block is uninitialized
 7. watch out for vn_len, it can change when write to the file
+8. every time you modify an inode, even it's just modifying the linkcount, dirty it!
 
 ####TODO
 
