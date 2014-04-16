@@ -100,8 +100,16 @@ tags: []
 6. the block acquired from s5_alloc_block is uninitialized
 7. watch out for vn_len, it can change when write to the file
 8. every time you modify an inode, even it's just modifying the linkcount, dirty it!
+9. there's no bug with linkcount!!!
+10. always check that the size of dir is a multiple of dirent size
+11. I add a panic in s5fs_mkdir when there's no space, it should be removed once I'm sure there is no bugs
 
 ####TODO
+
+1. s5_link: linkcount on inode_child
+2. watch out for linkcount: it should always be greater than 1
+3. Add lock mechanisms in s5fs.c
+4. add more KASSERT for s5fs_mkdir(check the linkcount)
 
 ####Questions
 
@@ -118,3 +126,12 @@ tags: []
 11. how to dirty the page frame that particular inode is residing in
 12. nice extension for s5_remove_dirent?
 13. can we always assume that vnode->vn_len == inode->s5_size
+14. about linkcount, 0 or 1
+15. the order of pin, unpin, dirty
+
+
+
+
+####If I have time
+
+- S5_NAME_LEN off by one
