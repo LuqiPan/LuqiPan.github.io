@@ -103,6 +103,8 @@ tags: []
 9. there's no bug with linkcount!!!
 10. always check that the size of dir is a multiple of dirent size
 11. I add a panic in s5fs_mkdir when there's no space, it should be removed once I'm sure there is no bugs
+12. pinned page is allocated
+13. off_t is signed int
 
 ####TODO
 
@@ -110,6 +112,7 @@ tags: []
 2. watch out for linkcount: it should always be greater than 1
 3. Add lock mechanisms in s5fs.c
 4. add more KASSERT for s5fs_mkdir(check the linkcount)
+5. check around s5_seek_to_block(it takes in an offset not blocknum and check the offset is not exceeding the file size)
 
 ####Questions
 
