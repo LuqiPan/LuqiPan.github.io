@@ -93,6 +93,11 @@ tags: []
 ####Keep in mind
 
 1. pin and unpin page frames when there's a chance to block
+
+    Even if the blocking operation is not operating on the same page frame
+
+    Guard around blocking operations
+
 2. mark page frame busy when in the middle of a state transitions
 3. watch out for the return value from ```pframe_get_resident```
 4. pframe_migrate: read it later
@@ -105,6 +110,7 @@ tags: []
 11. I add a panic in s5fs_mkdir when there's no space, it should be removed once I'm sure there is no bugs
 12. pinned page is allocated
 13. off_t is signed int
+14. the contents of block corresponding to s5_alloc_block are undefined
 
 ####TODO
 
@@ -113,6 +119,8 @@ tags: []
 3. Add lock mechanisms in s5fs.c
 4. add more KASSERT for s5fs_mkdir(check the linkcount)
 5. check around s5_seek_to_block(it takes in an offset not blocknum and check the offset is not exceeding the file size)
+6. the block acquired during seek_to_block of inode is memseted, what about file data block
+7. check all funcions that are calling s5_write_file
 
 ####Questions
 
