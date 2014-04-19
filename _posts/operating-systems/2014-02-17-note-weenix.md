@@ -111,6 +111,7 @@ tags: []
 12. pinned page is allocated
 13. off_t is signed int
 14. the contents of block corresponding to s5_alloc_block are undefined
+15. block number cannot be 0, but inode number can be 0- it's the root directory
 
 ####TODO
 
@@ -121,6 +122,10 @@ tags: []
 5. check around s5_seek_to_block(it takes in an offset not blocknum and check the offset is not exceeding the file size)
 6. the block acquired during seek_to_block of inode is memseted, what about file data block
 7. check all funcions that are calling s5_write_file
+8. lock the vnode if it will block
+
+- assert at the end of mkdir
+- decrement linkcount at s5_remove_dirent
 
 ####Questions
 
