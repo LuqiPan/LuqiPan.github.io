@@ -145,9 +145,17 @@ tags: []
 14. about linkcount, 0 or 1
 15. the order of pin, unpin, dirty
 
+###VM
 
+####Questions
+
+1. any other things for vmmap_destroy?
+2. vmmap_find_range: page starts at 0?
+3. why it's in page resolution instead of byte
+4. why unexpected kernel page fault is bad in Weenix
 
 
 ####If I have time
 
 - S5_NAME_LEN off by one
+
