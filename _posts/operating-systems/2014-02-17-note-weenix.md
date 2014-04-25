@@ -153,10 +153,14 @@ tags: []
 2. vmmap_find_range: page starts at 0?
 3. why it's in page resolution instead of byte
 4. why unexpected kernel page fault is bad in Weenix
+5. how to differenciate anonymous object and shadow object
+6. when to pframe_pin the pages for anon obj(I guess it should be during mmap)
 
 ###TODO
 
 1. Review the refcount with anon
+2. still pretty shaky about mmo_vmas field, try figure it out
+3. ref the mmobj when initialize the vmarea
 
 ####If I have time
 
