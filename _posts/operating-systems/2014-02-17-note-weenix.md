@@ -154,6 +154,9 @@ tags: []
 3. why it's in page resolution instead of byte
 4. why unexpected kernel page fault is bad in Weenix
 
+###TODO
+
+1. Review the refcount with anon
 
 ####If I have time
 
