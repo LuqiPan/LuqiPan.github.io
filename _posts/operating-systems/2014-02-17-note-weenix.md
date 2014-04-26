@@ -155,6 +155,8 @@ tags: []
 4. why unexpected kernel page fault is bad in Weenix
 5. how to differenciate anonymous object and shadow object
 6. when to pframe_pin the pages for anon obj(I guess it should be during mmap)
+    
+    during mmap(the first time we get the pages for the anonymous object)
 
 ###TODO
 
