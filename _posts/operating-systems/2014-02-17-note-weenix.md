@@ -157,12 +157,15 @@ tags: []
 6. when to pframe_pin the pages for anon obj(I guess it should be during mmap)
     
     during mmap(the first time we get the pages for the anonymous object)
+7. what's different between shadow_put and anon_put
+8. the realation and operation with mmo_vmas
 
 ###TODO
 
 1. Review the refcount with anon
 2. still pretty shaky about mmo_vmas field, try figure it out
 3. ref the mmobj when initialize the vmarea
+4. watch out for mmo_shadowed field for shadow object
 
 ####If I have time
 
