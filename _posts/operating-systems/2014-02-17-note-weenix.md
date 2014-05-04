@@ -166,6 +166,7 @@ tags: []
 2. still pretty shaky about mmo_vmas field, try figure it out
 3. ref the mmobj when initialize the vmarea
 4. watch out for mmo_shadowed field for shadow object
+5. Review vmmap_read and vmmap_write, sys_read and sys_write
 
 ####If I have time
 
