@@ -168,6 +168,11 @@ tags: []
 4. watch out for mmo_shadowed field for shadow object
 5. Review vmmap_read and vmmap_write, sys_read and sys_write
 
+###Ask
+
+1. the infinite loop
+2. kthread stack
+
 ####If I have time
 
 - S5_NAME_LEN off by one
