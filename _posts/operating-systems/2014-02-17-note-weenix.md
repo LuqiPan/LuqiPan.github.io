@@ -176,4 +176,5 @@ tags: []
 ####If I have time
 
 - S5_NAME_LEN off by one
-
+- s5fs shutdown and restart bug
+- eatmem fail in Dynamic
