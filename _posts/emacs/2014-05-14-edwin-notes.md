@@ -68,3 +68,37 @@ Use ```C-y```
 - ```C-x C-e``` evaluate the expression(point is after the closing parenthesis)
 - ```M-p``` to access the history
 - ```C-x b TUTORIAL```
+
+####Undo
+
+```C-x u``` or ```C-_```
+
+####Files
+
+- Find a file ```C-x C-f```
+- Save the file ```C-x C-s```
+
+####Buffers
+
+- List buffers ```C-x C-b```
+- get rid of the buffer list ```C-x 1```
+- Save all changed buffers ```C-x s```
+
+####eXtend command
+
+- C-x Character eXtend. Followed by one character
+- M-x Named command eXtend. Followed by a long name
+
+####C-x commands
+
+- C-x C-f   Find file
+- C-x C-s   Save file
+- C-x C-b   List buffers
+- C-x C-c   Quit Emacs
+- C-x u     Undo
+
+####Named eXtended command("functions")
+
+- M-x replace-string
+
+
