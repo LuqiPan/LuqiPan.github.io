@@ -54,3 +54,17 @@ tags: []
 - ```M-d``` kill the next word after the cursor
 - ```C-k``` kill from the cursor position to end of line
 - ```M-k``` kill to the end of the current sentence
+
+####Yank
+
+Use ```C-y```
+
+- ```C-y``` get the most recent kill
+- ```M-y``` get the previous kill
+
+####Evaluating Scheme Expressions
+
+- get into an evaluation buffer ```C-x b *scheme*```
+- ```C-x C-e``` evaluate the expression(point is after the closing parenthesis)
+- ```M-p``` to access the history
+- ```C-x b TUTORIAL```
