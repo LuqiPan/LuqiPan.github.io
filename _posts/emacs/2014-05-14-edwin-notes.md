@@ -25,8 +25,32 @@ tags: []
 - Forward one character ```C-f```
 - Backward one word ```M-b```
 - Forward one word ```M-f```
+- Line start ```C-a```
+- Line end ```C-e```
+- Sentence start ```M-a```
+- Sentence end ```M-e```
+- File start ```M-<```
+- File end ```M->```
 
 ####Usually the Rule
 
 - Meta commands are for English text
 - Control commands are for basic textual units
+
+####Repeat command
+
+```C-u <times> [command]```
+
+####Stopping Edwin
+
+- ```C-g``` quit what it was doing
+- ```C-c C-c``` cancel a Scheme evaluation
+
+####Deletion
+
+- <Delete> delete the character just before the cursor
+- ```C-d``` delete the next character after the cursor
+- ```M-<Delete>``` kill the word immediately before the cursor
+- ```M-d``` kill the next word after the cursor
+- ```C-k``` kill from the cursor position to end of line
+- ```M-k``` kill to the end of the current sentence
