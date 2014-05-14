@@ -100,5 +100,26 @@ Use ```C-y```
 ####Named eXtended command("functions")
 
 - M-x replace-string
+- M-x scheme-mode
 
+####Modes
 
+- C-h m documentation on current mode
+
+####Searching
+
+- Forward search ```C-s```
+- Reverse search ```C-r```
+
+####Recursive editing levels
+
+- M-x top-level
+- In doubt?
+
+####Windows
+
+- C-x 1 One window
+
+###Misc
+
+- C-u C-v to bring current line up
