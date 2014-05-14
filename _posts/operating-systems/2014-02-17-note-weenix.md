@@ -163,8 +163,17 @@ tags: []
 ###TODO
 
 1. Review the refcount with anon
+
+    no problem with refcount
+
 2. still pretty shaky about mmo_vmas field, try figure it out
+
+    now have a better understanding
+
 3. ref the mmobj when initialize the vmarea
+
+    done during vmmap_clone
+
 4. watch out for mmo_shadowed field for shadow object
 5. Review vmmap_read and vmmap_write, sys_read and sys_write
 
