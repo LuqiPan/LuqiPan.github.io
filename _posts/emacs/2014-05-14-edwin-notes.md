@@ -120,6 +120,15 @@ Use ```C-y```
 
 - C-x 1 One window
 
+####Getting help
+
+- C-h
+- C-h ?
+- C-h c brief description
+- C-h k documentation of the function
+- C-h f <function name> describe a function
+- C-h a Command Apropos
+
 ###Misc
 
 - C-u C-v to bring current line up
