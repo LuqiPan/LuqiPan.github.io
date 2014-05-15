@@ -54,6 +54,12 @@ logical composition operations:
 - or
 - not
 
+####1.1.7 Example: Square Roots by Newton's Method
+
+- In mathematics we are usually concerned with declarative (what is) descriptions
+- In CS we are usually concerned with imperative (how to) descriptions
+
 ###Questions
 
 1. Is normal order vs applicative order same as lazy evaluation vs eager evaluation
+2. Exercise 1.7
