@@ -58,3 +58,16 @@ method name ending in a ```?```: return ```true``` or ```false```
 
 - get rid of the ```Enter```
 - ```gets.chomp```
+
+####exponentiation
+
+```**```
+
+    5**2
+
+####random
+
+- rand(1) always produce 0
+- rand(101): 0-100
+- srand
+- srand 0 seed with current time in ms
