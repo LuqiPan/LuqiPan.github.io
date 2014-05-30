@@ -10,9 +10,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 
 # Dependencies
 markdown:         kramdown
-pygments:         true
-#markdown:         redcarpet
-#highlighter:      pygments
+highlighter:      pygments
 
 # Permalinks
 permalink:        /:year/:month/:title
