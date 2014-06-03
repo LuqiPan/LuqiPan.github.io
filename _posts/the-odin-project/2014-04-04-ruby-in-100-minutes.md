@@ -71,3 +71,11 @@ method name ending in a ```?```: return ```true``` or ```false```
 - rand(101): 0-100
 - srand
 - srand 0 seed with current time in ms
+
+####block as a parameter
+
+- precede the parameter with an ampersand(&)
+
+####global variable
+
+- preced the variable with $
