@@ -2,7 +2,7 @@
 layout: post
 title: "Ruby in 100 Minutes"
 description: ""
-category: "the odin project"
+category: "ruby"
 tags: []
 ---
 
