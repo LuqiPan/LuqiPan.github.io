@@ -69,3 +69,5 @@ what's with single quotes **sometimes** interpret escape characters
 @about_symbols.rb:34
 
 @about_regular_expressions.rb:35
+
+@about_constants.rb:87
