@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "RSpec: Level 1"
+title: "RSpec: Notes"
 description: ""
 category: "ruby"
 tags: []
