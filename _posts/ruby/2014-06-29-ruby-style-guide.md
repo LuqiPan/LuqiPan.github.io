@@ -13,3 +13,5 @@ tags: []
 ```
 %i(literal symbol array)
 ```
+
+Use ```Hash#fetch```. It will raise a KeyError, making the problem obvious
