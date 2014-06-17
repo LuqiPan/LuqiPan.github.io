@@ -15,3 +15,7 @@ tags: []
 ```
 
 Use ```Hash#fetch```. It will raise a KeyError, making the problem obvious
+
+####Questions
+
+What's the meaning that Ruby 1.9 hashes are ordered
