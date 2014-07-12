@@ -6,10 +6,10 @@ category: "vim"
 tags: []
 ---
 
-####Converting between tabs and spaces
+#### Converting between tabs and spaces
 
     :retab!
 
-####Delete blank lines
+#### Delete blank lines
 
     :g/^$/d
