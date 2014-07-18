@@ -13,3 +13,14 @@ tags: []
 #### Delete blank lines
 
     :g/^$/d
+
+#### Close all other windows
+
+    :on[ly]
+
+#### Move windows
+
+    ctrl-w r    " rotate all windows
+    ctrl-w R    " reversely rotate
+    ctrl-w x    " extrange current window with its neighbour
+    ctrl-w [HJKL]
