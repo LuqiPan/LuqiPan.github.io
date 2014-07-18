@@ -24,3 +24,7 @@ tags: []
     ctrl-w R    " reversely rotate
     ctrl-w x    " extrange current window with its neighbour
     ctrl-w [HJKL]
+
+#### Command-T auto flush
+
+    ctrl-f
