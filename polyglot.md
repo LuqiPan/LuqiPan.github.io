@@ -31,6 +31,7 @@ I really love to try different programming languages, so I decided to add this p
 
 ### On My Radar
 
+- OCaml
 - Haskell
 - Clojure
 - Elixir
