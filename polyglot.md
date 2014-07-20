@@ -28,6 +28,7 @@ I really love to try different programming languages, so I decided to add this p
 
 - Common Lisp
 - Scala
+- CoffeeScript
 
 ### On My Radar
 
