@@ -59,7 +59,7 @@ logical composition operations:
 - In mathematics we are usually concerned with declarative (what is) descriptions
 - In CS we are usually concerned with imperative (how to) descriptions
 
-####1.1.8 Procedures as Black-Box Abstractions 
+####1.1.8 Procedures as Black-Box Abstractions
 
 - Each procedure accomplishes and identifiable task that can be used as a module in defining other procedures
 - Block structure: to make procedures local and make proper variables free
