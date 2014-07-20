@@ -9,7 +9,7 @@ author:
 description:      <li class="lead" >Not anything, not yet. </p></li><li class="lead" >Worry for the bear! </p></li><li class="lead" >Keep calm and carry on.</p>
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "insert-modified.rb"]
 url:          https://luqipan.github.io/
-baseurl:      https://luqipan.github.io/
+baseurl:      /
 
 # Dependencies
 markdown:         kramdown
