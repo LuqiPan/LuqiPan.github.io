@@ -34,6 +34,8 @@ Use ```String#<<```, it mutates the original string and is faster
 
 Create a symbol with spaces in it ```:"some string"```
 
+***
+
 ####Questions
 
 What's the meaning that Ruby 1.9 hashes are ordered
