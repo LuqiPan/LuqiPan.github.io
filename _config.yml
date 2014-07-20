@@ -3,10 +3,13 @@ title:        Luqi Pan
 tagline:      "Love to learn new stuff"
 author:
   name:       "Luqi Pan"
+  url:        https://luqipan.github.io/
   email:      "luqi.pan@gmail.com"
   github:     https://github.com/LuqiPan
 description:      <li class="lead" >Not anything, not yet. </p></li><li class="lead" >Worry for the bear! </p></li><li class="lead" >Keep calm and carry on.</p>
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "insert-modified.rb"]
+url:          https://luqipan.github.io/
+baseurl:      /
 
 # Dependencies
 markdown:         kramdown
@@ -18,7 +21,7 @@ kramdown:
 permalink:        /:year/:month/:title
 
 # Pagination
-paginate:         10
+paginate:         5
 
 # Custom vars
 version:          2.1.0
