@@ -1,6 +1,6 @@
 # Setup
 title:        Luqi Pan
-tagline:      "Learning like a sponge"
+tagline:      "Love to learn new stuff"
 author:
   name:       "Luqi Pan"
   email:      "luqi.pan@gmail.com"
@@ -18,10 +18,10 @@ kramdown:
 permalink:        /:year/:month/:title
 
 # Pagination
-paginate:         5
+paginate:         10
 
 # Custom vars
-version:          2.0.0
+version:          2.1.0
 
 github:
   repo:           https://github.com/poole/hyde
