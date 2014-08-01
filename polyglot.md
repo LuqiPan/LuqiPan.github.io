@@ -29,6 +29,8 @@ I really love to try different programming languages, so I decided to add this p
 - Common Lisp
 - Scala
 - CoffeeScript
+- Haml
+- Scss
 
 ### On My Radar
 
