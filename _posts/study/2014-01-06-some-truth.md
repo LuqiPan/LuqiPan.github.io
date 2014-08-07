@@ -13,6 +13,7 @@ tags: []
 4. The difference between theory and practice is shorter in theory than in practice.
 5. Elegance is not optional.- Richard O'Keefe
 6. Perfect is the enemy of good.- Voltairo
+7. Syntactic sugar causes cancer of the semicolon.- Alan Perlis
 
 ***
 
