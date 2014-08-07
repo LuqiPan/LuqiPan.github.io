@@ -66,6 +66,10 @@ logical composition operations:
 
 ###1.2 Procedures and the Processes They Generate
 
+#### 1.2.1 Linear Recursion and Iteration
+
+
+
 ###Questions
 
 1. Is normal order vs applicative order same as lazy evaluation vs eager evaluation
