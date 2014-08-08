@@ -28,3 +28,9 @@ tags: []
 #### Command-T auto flush
 
     ctrl-f
+
+#### Pathogen + Git submodules
+
+    git submodule init
+    git submodule update
+    git submodule foreach git pull origin master
