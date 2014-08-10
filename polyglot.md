@@ -26,7 +26,7 @@ I really love to try different programming languages, so I decided to add this p
 
 ### Currently Pursuing:
 
-- Common Lisp
+- Clojure
 - Scala
 - CoffeeScript
 - Haml
@@ -34,9 +34,9 @@ I really love to try different programming languages, so I decided to add this p
 
 ### On My Radar
 
+- Common Lisp
 - OCaml
 - Haskell
-- Clojure
 - Elixir
 - Arc
 - Dart
