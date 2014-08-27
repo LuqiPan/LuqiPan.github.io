@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Brown Course Pairs Viz</title>
+    <style>
+      .link {
+        fill: none;
+        stroke: #EEE;
+        stroke-width: 1 px;
+        stroke-dasharray: 5,10,5;
+      }
+      .node circle
+      {
+        fill: steelblue;
+        stroke: #fff;
+        stroke-width: 1px;
+      }
+      .node text
+      {
+        pointer-events: none;
+        font: 15px sans-serif;
+      }
+      .hidden
+      {
+        visibility: hidden;
+      }
+      .show
+      {
+        visibility: show;
+      }
+    </style>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <script src="courses.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1980 @@
+{
+  "nodes": [
+    {
+      "name": "CSCI1230|Introduction to Computer Graphics",
+      "course_name": "Introduction to Computer Graphics",
+      "url": "http://cs.brown.edu/courses/csci1230.html"
+    },
+    {
+      "name": "CSCI1250|Introduction to Computer Animation",
+      "course_name": "Introduction to Computer Animation",
+      "url": "http://cs.brown.edu/courses/csci1250.html"
+    },
+    {
+      "name": "CSCI1260|Introductory Compiler Construction",
+      "course_name": "Introductory Compiler Construction",
+      "url": "http://cs.brown.edu/courses/csci1260.html"
+    },
+    {
+      "name": "CSCI1270|Database Management Systems",
+      "course_name": "Database Management Systems",
+      "url": "http://cs.brown.edu/courses/csci1270.html"
+    },
+    {
+      "name": "CSCI1280|Intermediate 3D Computer Animation",
+      "course_name": "Intermediate 3D Computer Animation",
+      "url": "http://cs.brown.edu/courses/csci1280.html"
+    },
+    {
+      "name": "CSCI1290|Computational Photography",
+      "course_name": "Computational Photography",
+      "url": "http://cs.brown.edu/courses/csci1290.html"
+    },
+    {
+      "name": "CSCI1300|Designing, Developing and Evaluating User Interfaces",
+      "course_name": "Designing, Developing and Evaluating User Interfaces",
+      "url": "http://cs.brown.edu/courses/csci1300.html"
+    },
+    {
+      "name": "CSCI1310|Fundamentals of Computer Systems",
+      "course_name": "Fundamentals of Computer Systems",
+      "url": "http://cs.brown.edu/courses/csci1310.html"
+    },
+    {
+      "name": "CSCI1320|Creating Modern Web Applications",
+      "course_name": "Creating Modern Web Applications",
+      "url": "http://cs.brown.edu/courses/csci1320.html"
+    },
+    {
+      "name": "CSCI1370|Virtual Reality Design for Science",
+      "course_name": "Virtual Reality Design for Science",
+      "url": "http://cs.brown.edu/courses/csci1370.html"
+    },
+    {
+      "name": "CSCI1380|Distributed Computer Systems",
+      "course_name": "Distributed Computer Systems",
+      "url": "http://cs.brown.edu/courses/csci1380.html"
+    },
+    {
+      "name": "CSCI1410|Applied Artifical Intelligence",
+      "course_name": "Applied Artifical Intelligence",
+      "url": "http://cs.brown.edu/courses/csci1410.html"
+    },
+    {
+      "name": "CSCI1420|Introduction to Machine Learning",
+      "course_name": "Introduction to Machine Learning",
+      "url": "http://cs.brown.edu/courses/csci1420.html"
+    },
+    {
+      "name": "CSCI1430|Introduction to Computer Vision",
+      "course_name": "Introduction to Computer Vision",
+      "url": "http://cs.brown.edu/courses/csci1430.html"
+    },
+    {
+      "name": "CSCI1450|Introduction to Probability and Computing",
+      "course_name": "Introduction to Probability and Computing",
+      "url": "http://cs.brown.edu/courses/csci1450.html"
+    },
+    {
+      "name": "CSCI1460|Introduction to Computational Linguistics",
+      "course_name": "Introduction to Computational Linguistics",
+      "url": "http://cs.brown.edu/courses/csci1460.html"
+    },
+    {
+      "name": "CSCI1480|Building Intelligent Robots",
+      "course_name": "Building Intelligent Robots",
+      "url": "http://cs.brown.edu/courses/csci1480.html"
+    },
+    {
+      "name": "CSCI1510|Introduction to Cryptography and Computer Security",
+      "course_name": "Introduction to Cryptography and Computer Security",
+      "url": "http://cs.brown.edu/courses/csci1510.html"
+    },
+    {
+      "name": "CSCI1550|Probabilistic Methods in Computer Science",
+      "course_name": "Probabilistic Methods in Computer Science",
+      "url": "http://cs.brown.edu/courses/csci1550.html"
+    },
+    {
+      "name": "CSCI1570|Design and Analysis of Algorithms",
+      "course_name": "Design and Analysis of Algorithms",
+      "url": "http://cs.brown.edu/courses/csci1570.html"
+    },
+    {
+      "name": "CSCI1580|Information Retrieval and Web Search",
+      "course_name": "Information Retrieval and Web Search",
+      "url": "http://cs.brown.edu/courses/csci1580.html"
+    },
+    {
+      "name": "CSCI1600|Introduction to Embedded Real-time Software",
+      "course_name": "Introduction to Embedded Real-time Software",
+      "url": "http://cs.brown.edu/courses/csci1600.html"
+    },
+    {
+      "name": "CSCI1660|Introduction to Computer Systems Security",
+      "course_name": "Introduction to Computer Systems Security",
+      "url": "http://cs.brown.edu/courses/csci1660.html"
+    },
+    {
+      "name": "CSCI1670|Operating Systems",
+      "course_name": "Operating Systems",
+      "url": "http://cs.brown.edu/courses/csci1670.html"
+    },
+    {
+      "name": "CSCI1680|Computer Networks",
+      "course_name": "Computer Networks",
+      "url": "http://cs.brown.edu/courses/csci1680.html"
+    },
+    {
+      "name": "CSCI1730|Introduction to Programming Languages",
+      "course_name": "Introduction to Programming Languages",
+      "url": "http://cs.brown.edu/courses/csci1730.html"
+    },
+    {
+      "name": "CSCI1760|Introduction to Multiprocessor Synchronization",
+      "course_name": "Introduction to Multiprocessor Synchronization",
+      "url": "http://cs.brown.edu/courses/csci1760.html"
+    },
+    {
+      "name": "CSCI1780|Parallel and Distributed Programming",
+      "course_name": "Parallel and Distributed Programming",
+      "url": "http://cs.brown.edu/courses/csci1780.html"
+    },
+    {
+      "name": "CSCI1800|Cybersecurity and International Relations",
+      "course_name": "Cybersecurity and International Relations",
+      "url": "http://cs.brown.edu/courses/csci1800.html"
+    },
+    {
+      "name": "CSCI1810|Computational Molecular Biology",
+      "course_name": "Computational Molecular Biology",
+      "url": "http://cs.brown.edu/courses/csci1810.html"
+    },
+    {
+      "name": "CSCI1820|Algorithmic Foundations of Computational Biology",
+      "course_name": "Algorithmic Foundations of Computational Biology",
+      "url": "http://cs.brown.edu/courses/csci1820.html"
+    },
+    {
+      "name": "CSCI1950E|Human-Robot Interaction Seminar",
+      "course_name": "Human-Robot Interaction Seminar",
+      "url": "http://cs.brown.edu/courses/csci1950-e.html"
+    },
+    {
+      "name": "CSCI1950H|Computational Topology",
+      "course_name": "Computational Topology",
+      "url": "http://cs.brown.edu/courses/csci1950-h.html"
+    },
+    {
+      "name": "CSCI1950N|2D Game Engines",
+      "course_name": "2D Game Engines",
+      "url": "http://cs.brown.edu/courses/csci1950-n.html"
+    },
+    {
+      "name": "CSCI1950U|Topics in 3D Game Engine Development",
+      "course_name": "Topics in 3D Game Engine Development",
+      "url": "http://cs.brown.edu/courses/csci1950-u.html"
+    },
+    {
+      "name": "CSCI1950W|",
+      "course_name": null,
+      "url": "http://cs.brown.edu/courses/csci1950w/"
+    },
+    {
+      "name": "CSCI1950X|Software Foundations",
+      "course_name": "Software Foundations",
+      "url": "http://cs.brown.edu/courses/csci1950-x.html"
+    },
+    {
+      "name": "CSCI1950Y|Logic for Hackers",
+      "course_name": "Logic for Hackers",
+      "url": "http://cs.brown.edu/courses/csci1950-y.html"
+    },
+    {
+      "name": "CSCI1951A|Introduction to Data Science",
+      "course_name": "Introduction to Data Science",
+      "url": "http://cs.brown.edu/courses/csci1951-a.html"
+    },
+    {
+      "name": "CSCI1951B|Virtual Citizens or Subjects? The Global Battle Over Governing Your Internet",
+      "course_name": "Virtual Citizens or Subjects? The Global Battle Over Governing Your Internet",
+      "url": "http://cs.brown.edu/courses/csci1951-b.html"
+    },
+    {
+      "name": "CSCI1951C|Designing Humanity Centered Robets",
+      "course_name": "Designing Humanity Centered Robets",
+      "url": "http://cs.brown.edu/courses/csci1951-c.html"
+    },
+    {
+      "name": "CSCI1971|Independent Study in 2D Game Engines",
+      "course_name": "Independent Study in 2D Game Engines",
+      "url": "http://cs.brown.edu/courses/csci1971.html"
+    },
+    {
+      "name": "CSCI2050T|",
+      "url": null
+    },
+    {
+      "name": "CSCI2240|Interactive Computer Graphics",
+      "course_name": "Interactive Computer Graphics",
+      "url": "http://cs.brown.edu/courses/csci2240.html"
+    },
+    {
+      "name": "CSCI2270|Topics in Database Management",
+      "course_name": "Topics in Database Management",
+      "url": "http://cs.brown.edu/courses/csci2270.html"
+    },
+    {
+      "name": "CSCI2300|Human-Computer Interaction Seminar",
+      "course_name": "Human-Computer Interaction Seminar",
+      "url": "http://cs.brown.edu/courses/csci2300.html"
+    },
+    {
+      "name": "CSCI2310|Human Factors and User Interface Design",
+      "course_name": "Human Factors and User Interface Design",
+      "url": "http://cs.brown.edu/courses/csci2310.html"
+    },
+    {
+      "name": "CSCI2330|Programming Environments",
+      "course_name": "Programming Environments",
+      "url": "http://cs.brown.edu/courses/csci2330.html"
+    },
+    {
+      "name": "CSCI2370|Interdisciplinary Scientific Visualization",
+      "course_name": "Interdisciplinary Scientific Visualization",
+      "url": "http://cs.brown.edu/courses/csci2370.html"
+    },
+    {
+      "name": "CSCI2380|",
+      "url": null
+    },
+    {
+      "name": "CSCI2410|Statistical Models in Natural-Language Understanding",
+      "course_name": "Statistical Models in Natural-Language Understanding",
+      "url": "http://cs.brown.edu/courses/csci2410.html"
+    },
+    {
+      "name": "CSCI2420|Probabilistic Graphical Models",
+      "course_name": "Probabilistic Graphical Models",
+      "url": "http://cs.brown.edu/courses/csci2420.html"
+    },
+    {
+      "name": "CSCI2440|Topics in Game-Theoretic Artificial Intelligence",
+      "course_name": "Topics in Game-Theoretic Artificial Intelligence",
+      "url": "http://cs.brown.edu/courses/csci2440.html"
+    },
+    {
+      "name": "CSCI2500A|Advanced Algorithms",
+      "course_name": "Advanced Algorithms",
+      "url": "http://cs.brown.edu/courses/csci2500-a.html"
+    },
+    {
+      "name": "CSCI2500B|Optimization Algorithms for Planar Graphs",
+      "course_name": "Optimization Algorithms for Planar Graphs",
+      "url": "http://cs.brown.edu/courses/csci2500-b.html"
+    },
+    {
+      "name": "CSCI2510|Approximation Algorithms",
+      "course_name": "Approximation Algorithms",
+      "url": "http://cs.brown.edu/courses/csci2510.html"
+    },
+    {
+      "name": "CSCI2531|Internet and Web Algorithms",
+      "course_name": "Internet and Web Algorithms",
+      "url": "http://cs.brown.edu/courses/csci2531.html"
+    },
+    {
+      "name": "CSCI2540|Advanced Probabilistic Methods in Computer Science",
+      "course_name": "Advanced Probabilistic Methods in Computer Science",
+      "url": "http://cs.brown.edu/courses/csci2540.html"
+    },
+    {
+      "name": "CSCI2580|Solving Hard Problems in Combinatorial Optimization: Theory and Systems",
+      "course_name": "Solving Hard Problems in Combinatorial Optimization: Theory and Systems",
+      "url": "http://cs.brown.edu/courses/csci2580.html"
+    },
+    {
+      "name": "CSCI2590|Advanced Topics in Cryptography",
+      "course_name": "Advanced Topics in Cryptography",
+      "url": "http://cs.brown.edu/courses/csci2590.html"
+    },
+    {
+      "name": "CSCI2730|Programming Language Theory",
+      "course_name": "Programming Language Theory",
+      "url": "http://cs.brown.edu/courses/csci2730.html"
+    },
+    {
+      "name": "CSCI2750|Topics in Parallel & Distributed Computing",
+      "course_name": "Topics in Parallel & Distributed Computing",
+      "url": "http://cs.brown.edu/courses/csci2750.html"
+    },
+    {
+      "name": "CSCI2820|Medical Bioinformatics",
+      "course_name": "Medical Bioinformatics",
+      "url": "http://cs.brown.edu/courses/csci2820.html"
+    },
+    {
+      "name": "CSCI2950T|Topics in Distributed Databases & Systems",
+      "course_name": "Topics in Distributed Databases & Systems",
+      "url": "http://cs.brown.edu/courses/csci2950-t.html"
+    },
+    {
+      "name": "CSCI2950U|Special Topics on Networking and Distributed Systems",
+      "course_name": "Special Topics on Networking and Distributed Systems",
+      "url": "http://cs.brown.edu/courses/csci2950-u.html"
+    },
+    {
+      "name": "CSCI2951F|Learning and Sequential Decision Making",
+      "course_name": "Learning and Sequential Decision Making",
+      "url": "http://cs.brown.edu/courses/csci2951-f.html"
+    },
+    {
+      "name": "CSCI2951K|Topics in Grounded Language for Robotics",
+      "course_name": "Topics in Grounded Language for Robotics",
+      "url": "http://cs.brown.edu/courses/csci2951-k.html"
+    },
+    {
+      "name": "CSCI2951P|Human-Robot Interaction Seminar",
+      "course_name": "Human-Robot Interaction Seminar",
+      "url": "http://cs.brown.edu/courses/csci2951-p.html"
+    },
+    {
+      "name": "ENGN1630|",
+      "url": "http://www.engin.brown.edu/courses/EN163/"
+    },
+    {
+      "name": "ENGN1640|",
+      "url": "http://www.lems.brown.edu/cad/coursei2956-fs/EN164/"
+    },
+    {
+      "name": "ENGN2910A|",
+      "url": null
+    },
+    {
+      "name": "ENGN2911X|",
+      "url": null
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1
+    },
+    {
+      "source": 0,
+      "target": 4
+    },
+    {
+      "source": 0,
+      "target": 5
+    },
+    {
+      "source": 0,
+      "target": 6
+    },
+    {
+      "source": 0,
+      "target": 8
+    },
+    {
+      "source": 0,
+      "target": 9
+    },
+    {
+      "source": 0,
+      "target": 11
+    },
+    {
+      "source": 0,
+      "target": 13
+    },
+    {
+      "source": 0,
+      "target": 16
+    },
+    {
+      "source": 0,
+      "target": 33
+    },
+    {
+      "source": 0,
+      "target": 34
+    },
+    {
+      "source": 0,
+      "target": 41
+    },
+    {
+      "source": 0,
+      "target": 43
+    },
+    {
+      "source": 0,
+      "target": 46
+    },
+    {
+      "source": 0,
+      "target": 47
+    },
+    {
+      "source": 0,
+      "target": 48
+    },
+    {
+      "source": 1,
+      "target": 0
+    },
+    {
+      "source": 1,
+      "target": 4
+    },
+    {
+      "source": 1,
+      "target": 5
+    },
+    {
+      "source": 1,
+      "target": 9
+    },
+    {
+      "source": 1,
+      "target": 43
+    },
+    {
+      "source": 2,
+      "target": 25
+    },
+    {
+      "source": 3,
+      "target": 7
+    },
+    {
+      "source": 3,
+      "target": 8
+    },
+    {
+      "source": 3,
+      "target": 10
+    },
+    {
+      "source": 3,
+      "target": 20
+    },
+    {
+      "source": 3,
+      "target": 23
+    },
+    {
+      "source": 3,
+      "target": 35
+    },
+    {
+      "source": 3,
+      "target": 38
+    },
+    {
+      "source": 3,
+      "target": 44
+    },
+    {
+      "source": 3,
+      "target": 47
+    },
+    {
+      "source": 4,
+      "target": 0
+    },
+    {
+      "source": 4,
+      "target": 1
+    },
+    {
+      "source": 4,
+      "target": 5
+    },
+    {
+      "source": 4,
+      "target": 9
+    },
+    {
+      "source": 4,
+      "target": 21
+    },
+    {
+      "source": 4,
+      "target": 43
+    },
+    {
+      "source": 5,
+      "target": 0
+    },
+    {
+      "source": 5,
+      "target": 1
+    },
+    {
+      "source": 5,
+      "target": 4
+    },
+    {
+      "source": 5,
+      "target": 8
+    },
+    {
+      "source": 5,
+      "target": 9
+    },
+    {
+      "source": 5,
+      "target": 13
+    },
+    {
+      "source": 5,
+      "target": 43
+    },
+    {
+      "source": 6,
+      "target": 0
+    },
+    {
+      "source": 6,
+      "target": 8
+    },
+    {
+      "source": 6,
+      "target": 9
+    },
+    {
+      "source": 6,
+      "target": 45
+    },
+    {
+      "source": 6,
+      "target": 48
+    },
+    {
+      "source": 7,
+      "target": 3
+    },
+    {
+      "source": 7,
+      "target": 10
+    },
+    {
+      "source": 7,
+      "target": 23
+    },
+    {
+      "source": 7,
+      "target": 24
+    },
+    {
+      "source": 8,
+      "target": 0
+    },
+    {
+      "source": 8,
+      "target": 3
+    },
+    {
+      "source": 8,
+      "target": 5
+    },
+    {
+      "source": 8,
+      "target": 6
+    },
+    {
+      "source": 8,
+      "target": 10
+    },
+    {
+      "source": 8,
+      "target": 21
+    },
+    {
+      "source": 8,
+      "target": 22
+    },
+    {
+      "source": 8,
+      "target": 23
+    },
+    {
+      "source": 8,
+      "target": 24
+    },
+    {
+      "source": 8,
+      "target": 43
+    },
+    {
+      "source": 8,
+      "target": 45
+    },
+    {
+      "source": 8,
+      "target": 46
+    },
+    {
+      "source": 8,
+      "target": 47
+    },
+    {
+      "source": 9,
+      "target": 0
+    },
+    {
+      "source": 9,
+      "target": 1
+    },
+    {
+      "source": 9,
+      "target": 4
+    },
+    {
+      "source": 9,
+      "target": 5
+    },
+    {
+      "source": 9,
+      "target": 6
+    },
+    {
+      "source": 9,
+      "target": 43
+    },
+    {
+      "source": 9,
+      "target": 45
+    },
+    {
+      "source": 9,
+      "target": 48
+    },
+    {
+      "source": 10,
+      "target": 3
+    },
+    {
+      "source": 10,
+      "target": 7
+    },
+    {
+      "source": 10,
+      "target": 8
+    },
+    {
+      "source": 10,
+      "target": 22
+    },
+    {
+      "source": 10,
+      "target": 23
+    },
+    {
+      "source": 10,
+      "target": 24
+    },
+    {
+      "source": 10,
+      "target": 26
+    },
+    {
+      "source": 10,
+      "target": 27
+    },
+    {
+      "source": 10,
+      "target": 44
+    },
+    {
+      "source": 10,
+      "target": 47
+    },
+    {
+      "source": 10,
+      "target": 61
+    },
+    {
+      "source": 10,
+      "target": 63
+    },
+    {
+      "source": 10,
+      "target": 64
+    },
+    {
+      "source": 11,
+      "target": 0
+    },
+    {
+      "source": 11,
+      "target": 12
+    },
+    {
+      "source": 11,
+      "target": 13
+    },
+    {
+      "source": 11,
+      "target": 15
+    },
+    {
+      "source": 11,
+      "target": 16
+    },
+    {
+      "source": 11,
+      "target": 20
+    },
+    {
+      "source": 11,
+      "target": 31
+    },
+    {
+      "source": 11,
+      "target": 40
+    },
+    {
+      "source": 11,
+      "target": 52
+    },
+    {
+      "source": 11,
+      "target": 58
+    },
+    {
+      "source": 11,
+      "target": 65
+    },
+    {
+      "source": 11,
+      "target": 66
+    },
+    {
+      "source": 11,
+      "target": 67
+    },
+    {
+      "source": 12,
+      "target": 11
+    },
+    {
+      "source": 12,
+      "target": 13
+    },
+    {
+      "source": 12,
+      "target": 14
+    },
+    {
+      "source": 12,
+      "target": 15
+    },
+    {
+      "source": 12,
+      "target": 16
+    },
+    {
+      "source": 12,
+      "target": 18
+    },
+    {
+      "source": 12,
+      "target": 20
+    },
+    {
+      "source": 12,
+      "target": 35
+    },
+    {
+      "source": 12,
+      "target": 40
+    },
+    {
+      "source": 12,
+      "target": 50
+    },
+    {
+      "source": 12,
+      "target": 51
+    },
+    {
+      "source": 12,
+      "target": 52
+    },
+    {
+      "source": 12,
+      "target": 58
+    },
+    {
+      "source": 12,
+      "target": 65
+    },
+    {
+      "source": 12,
+      "target": 66
+    },
+    {
+      "source": 13,
+      "target": 0
+    },
+    {
+      "source": 13,
+      "target": 5
+    },
+    {
+      "source": 13,
+      "target": 11
+    },
+    {
+      "source": 13,
+      "target": 12
+    },
+    {
+      "source": 13,
+      "target": 15
+    },
+    {
+      "source": 13,
+      "target": 16
+    },
+    {
+      "source": 13,
+      "target": 67
+    },
+    {
+      "source": 14,
+      "target": 12
+    },
+    {
+      "source": 14,
+      "target": 18
+    },
+    {
+      "source": 15,
+      "target": 11
+    },
+    {
+      "source": 15,
+      "target": 12
+    },
+    {
+      "source": 15,
+      "target": 13
+    },
+    {
+      "source": 15,
+      "target": 50
+    },
+    {
+      "source": 15,
+      "target": 65
+    },
+    {
+      "source": 15,
+      "target": 66
+    },
+    {
+      "source": 16,
+      "target": 0
+    },
+    {
+      "source": 16,
+      "target": 11
+    },
+    {
+      "source": 16,
+      "target": 12
+    },
+    {
+      "source": 16,
+      "target": 13
+    },
+    {
+      "source": 16,
+      "target": 31
+    },
+    {
+      "source": 16,
+      "target": 40
+    },
+    {
+      "source": 16,
+      "target": 65
+    },
+    {
+      "source": 16,
+      "target": 66
+    },
+    {
+      "source": 16,
+      "target": 67
+    },
+    {
+      "source": 17,
+      "target": 18
+    },
+    {
+      "source": 17,
+      "target": 19
+    },
+    {
+      "source": 17,
+      "target": 22
+    },
+    {
+      "source": 17,
+      "target": 28
+    },
+    {
+      "source": 17,
+      "target": 39
+    },
+    {
+      "source": 17,
+      "target": 59
+    },
+    {
+      "source": 18,
+      "target": 12
+    },
+    {
+      "source": 18,
+      "target": 14
+    },
+    {
+      "source": 18,
+      "target": 17
+    },
+    {
+      "source": 18,
+      "target": 19
+    },
+    {
+      "source": 18,
+      "target": 29
+    },
+    {
+      "source": 18,
+      "target": 51
+    },
+    {
+      "source": 19,
+      "target": 17
+    },
+    {
+      "source": 19,
+      "target": 18
+    },
+    {
+      "source": 19,
+      "target": 26
+    },
+    {
+      "source": 19,
+      "target": 29
+    },
+    {
+      "source": 19,
+      "target": 32
+    },
+    {
+      "source": 19,
+      "target": 53
+    },
+    {
+      "source": 19,
+      "target": 54
+    },
+    {
+      "source": 19,
+      "target": 55
+    },
+    {
+      "source": 19,
+      "target": 56
+    },
+    {
+      "source": 19,
+      "target": 57
+    },
+    {
+      "source": 19,
+      "target": 58
+    },
+    {
+      "source": 19,
+      "target": 62
+    },
+    {
+      "source": 20,
+      "target": 3
+    },
+    {
+      "source": 20,
+      "target": 11
+    },
+    {
+      "source": 20,
+      "target": 12
+    },
+    {
+      "source": 20,
+      "target": 56
+    },
+    {
+      "source": 21,
+      "target": 8
+    },
+    {
+      "source": 21,
+      "target": 10
+    },
+    {
+      "source": 21,
+      "target": 23
+    },
+    {
+      "source": 21,
+      "target": 24
+    },
+    {
+      "source": 21,
+      "target": 47
+    },
+    {
+      "source": 22,
+      "target": 8
+    },
+    {
+      "source": 22,
+      "target": 10
+    },
+    {
+      "source": 22,
+      "target": 17
+    },
+    {
+      "source": 22,
+      "target": 23
+    },
+    {
+      "source": 22,
+      "target": 24
+    },
+    {
+      "source": 22,
+      "target": 28
+    },
+    {
+      "source": 22,
+      "target": 39
+    },
+    {
+      "source": 23,
+      "target": 3
+    },
+    {
+      "source": 23,
+      "target": 7
+    },
+    {
+      "source": 23,
+      "target": 8
+    },
+    {
+      "source": 23,
+      "target": 10
+    },
+    {
+      "source": 23,
+      "target": 21
+    },
+    {
+      "source": 23,
+      "target": 22
+    },
+    {
+      "source": 23,
+      "target": 24
+    },
+    {
+      "source": 23,
+      "target": 26
+    },
+    {
+      "source": 23,
+      "target": 44
+    },
+    {
+      "source": 23,
+      "target": 47
+    },
+    {
+      "source": 23,
+      "target": 68
+    },
+    {
+      "source": 23,
+      "target": 69
+    },
+    {
+      "source": 23,
+      "target": 70
+    },
+    {
+      "source": 23,
+      "target": 71
+    },
+    {
+      "source": 24,
+      "target": 7
+    },
+    {
+      "source": 24,
+      "target": 8
+    },
+    {
+      "source": 24,
+      "target": 10
+    },
+    {
+      "source": 24,
+      "target": 21
+    },
+    {
+      "source": 24,
+      "target": 22
+    },
+    {
+      "source": 24,
+      "target": 23
+    },
+    {
+      "source": 24,
+      "target": 47
+    },
+    {
+      "source": 24,
+      "target": 64
+    },
+    {
+      "source": 25,
+      "target": 2
+    },
+    {
+      "source": 25,
+      "target": 36
+    },
+    {
+      "source": 25,
+      "target": 37
+    },
+    {
+      "source": 25,
+      "target": 60
+    },
+    {
+      "source": 26,
+      "target": 10
+    },
+    {
+      "source": 26,
+      "target": 19
+    },
+    {
+      "source": 26,
+      "target": 23
+    },
+    {
+      "source": 26,
+      "target": 27
+    },
+    {
+      "source": 26,
+      "target": 32
+    },
+    {
+      "source": 26,
+      "target": 61
+    },
+    {
+      "source": 26,
+      "target": 68
+    },
+    {
+      "source": 26,
+      "target": 69
+    },
+    {
+      "source": 26,
+      "target": 70
+    },
+    {
+      "source": 26,
+      "target": 71
+    },
+    {
+      "source": 27,
+      "target": 10
+    },
+    {
+      "source": 27,
+      "target": 26
+    },
+    {
+      "source": 27,
+      "target": 47
+    },
+    {
+      "source": 28,
+      "target": 17
+    },
+    {
+      "source": 28,
+      "target": 22
+    },
+    {
+      "source": 28,
+      "target": 39
+    },
+    {
+      "source": 29,
+      "target": 18
+    },
+    {
+      "source": 29,
+      "target": 19
+    },
+    {
+      "source": 29,
+      "target": 30
+    },
+    {
+      "source": 29,
+      "target": 32
+    },
+    {
+      "source": 29,
+      "target": 62
+    },
+    {
+      "source": 30,
+      "target": 29
+    },
+    {
+      "source": 30,
+      "target": 62
+    },
+    {
+      "source": 31,
+      "target": 11
+    },
+    {
+      "source": 31,
+      "target": 16
+    },
+    {
+      "source": 31,
+      "target": 40
+    },
+    {
+      "source": 32,
+      "target": 19
+    },
+    {
+      "source": 32,
+      "target": 26
+    },
+    {
+      "source": 32,
+      "target": 29
+    },
+    {
+      "source": 33,
+      "target": 0
+    },
+    {
+      "source": 33,
+      "target": 34
+    },
+    {
+      "source": 33,
+      "target": 43
+    },
+    {
+      "source": 34,
+      "target": 0
+    },
+    {
+      "source": 34,
+      "target": 33
+    },
+    {
+      "source": 34,
+      "target": 41
+    },
+    {
+      "source": 34,
+      "target": 43
+    },
+    {
+      "source": 35,
+      "target": 3
+    },
+    {
+      "source": 35,
+      "target": 12
+    },
+    {
+      "source": 35,
+      "target": 44
+    },
+    {
+      "source": 36,
+      "target": 25
+    },
+    {
+      "source": 36,
+      "target": 37
+    },
+    {
+      "source": 36,
+      "target": 60
+    },
+    {
+      "source": 37,
+      "target": 25
+    },
+    {
+      "source": 37,
+      "target": 36
+    },
+    {
+      "source": 37,
+      "target": 60
+    },
+    {
+      "source": 38,
+      "target": 3
+    },
+    {
+      "source": 38,
+      "target": 44
+    },
+    {
+      "source": 39,
+      "target": 17
+    },
+    {
+      "source": 39,
+      "target": 22
+    },
+    {
+      "source": 39,
+      "target": 28
+    },
+    {
+      "source": 40,
+      "target": 11
+    },
+    {
+      "source": 40,
+      "target": 12
+    },
+    {
+      "source": 40,
+      "target": 16
+    },
+    {
+      "source": 40,
+      "target": 31
+    },
+    {
+      "source": 41,
+      "target": 0
+    },
+    {
+      "source": 41,
+      "target": 34
+    },
+    {
+      "source": 41,
+      "target": 43
+    },
+    {
+      "source": 43,
+      "target": 0
+    },
+    {
+      "source": 43,
+      "target": 1
+    },
+    {
+      "source": 43,
+      "target": 4
+    },
+    {
+      "source": 43,
+      "target": 5
+    },
+    {
+      "source": 43,
+      "target": 8
+    },
+    {
+      "source": 43,
+      "target": 9
+    },
+    {
+      "source": 43,
+      "target": 33
+    },
+    {
+      "source": 43,
+      "target": 34
+    },
+    {
+      "source": 43,
+      "target": 41
+    },
+    {
+      "source": 43,
+      "target": 48
+    },
+    {
+      "source": 44,
+      "target": 3
+    },
+    {
+      "source": 44,
+      "target": 10
+    },
+    {
+      "source": 44,
+      "target": 23
+    },
+    {
+      "source": 44,
+      "target": 35
+    },
+    {
+      "source": 44,
+      "target": 38
+    },
+    {
+      "source": 45,
+      "target": 6
+    },
+    {
+      "source": 45,
+      "target": 8
+    },
+    {
+      "source": 45,
+      "target": 9
+    },
+    {
+      "source": 45,
+      "target": 48
+    },
+    {
+      "source": 46,
+      "target": 0
+    },
+    {
+      "source": 46,
+      "target": 8
+    },
+    {
+      "source": 47,
+      "target": 0
+    },
+    {
+      "source": 47,
+      "target": 3
+    },
+    {
+      "source": 47,
+      "target": 8
+    },
+    {
+      "source": 47,
+      "target": 10
+    },
+    {
+      "source": 47,
+      "target": 21
+    },
+    {
+      "source": 47,
+      "target": 23
+    },
+    {
+      "source": 47,
+      "target": 24
+    },
+    {
+      "source": 47,
+      "target": 27
+    },
+    {
+      "source": 48,
+      "target": 0
+    },
+    {
+      "source": 48,
+      "target": 6
+    },
+    {
+      "source": 48,
+      "target": 9
+    },
+    {
+      "source": 48,
+      "target": 43
+    },
+    {
+      "source": 48,
+      "target": 45
+    },
+    {
+      "source": 50,
+      "target": 12
+    },
+    {
+      "source": 50,
+      "target": 15
+    },
+    {
+      "source": 51,
+      "target": 12
+    },
+    {
+      "source": 51,
+      "target": 18
+    },
+    {
+      "source": 51,
+      "target": 65
+    },
+    {
+      "source": 51,
+      "target": 66
+    },
+    {
+      "source": 52,
+      "target": 11
+    },
+    {
+      "source": 52,
+      "target": 12
+    },
+    {
+      "source": 53,
+      "target": 19
+    },
+    {
+      "source": 53,
+      "target": 51
+    },
+    {
+      "source": 53,
+      "target": 54
+    },
+    {
+      "source": 53,
+      "target": 55
+    },
+    {
+      "source": 53,
+      "target": 56
+    },
+    {
+      "source": 53,
+      "target": 57
+    },
+    {
+      "source": 53,
+      "target": 58
+    },
+    {
+      "source": 54,
+      "target": 19
+    },
+    {
+      "source": 54,
+      "target": 51
+    },
+    {
+      "source": 54,
+      "target": 53
+    },
+    {
+      "source": 54,
+      "target": 55
+    },
+    {
+      "source": 54,
+      "target": 56
+    },
+    {
+      "source": 54,
+      "target": 57
+    },
+    {
+      "source": 54,
+      "target": 58
+    },
+    {
+      "source": 55,
+      "target": 19
+    },
+    {
+      "source": 55,
+      "target": 51
+    },
+    {
+      "source": 55,
+      "target": 53
+    },
+    {
+      "source": 55,
+      "target": 54
+    },
+    {
+      "source": 55,
+      "target": 56
+    },
+    {
+      "source": 55,
+      "target": 57
+    },
+    {
+      "source": 55,
+      "target": 58
+    },
+    {
+      "source": 56,
+      "target": 19
+    },
+    {
+      "source": 56,
+      "target": 20
+    },
+    {
+      "source": 56,
+      "target": 51
+    },
+    {
+      "source": 56,
+      "target": 53
+    },
+    {
+      "source": 56,
+      "target": 54
+    },
+    {
+      "source": 56,
+      "target": 55
+    },
+    {
+      "source": 56,
+      "target": 57
+    },
+    {
+      "source": 56,
+      "target": 58
+    },
+    {
+      "source": 57,
+      "target": 19
+    },
+    {
+      "source": 57,
+      "target": 51
+    },
+    {
+      "source": 57,
+      "target": 53
+    },
+    {
+      "source": 57,
+      "target": 54
+    },
+    {
+      "source": 57,
+      "target": 55
+    },
+    {
+      "source": 57,
+      "target": 56
+    },
+    {
+      "source": 57,
+      "target": 58
+    },
+    {
+      "source": 58,
+      "target": 11
+    },
+    {
+      "source": 58,
+      "target": 12
+    },
+    {
+      "source": 58,
+      "target": 19
+    },
+    {
+      "source": 58,
+      "target": 20
+    },
+    {
+      "source": 58,
+      "target": 51
+    },
+    {
+      "source": 58,
+      "target": 53
+    },
+    {
+      "source": 58,
+      "target": 54
+    },
+    {
+      "source": 58,
+      "target": 55
+    },
+    {
+      "source": 58,
+      "target": 56
+    },
+    {
+      "source": 58,
+      "target": 57
+    },
+    {
+      "source": 59,
+      "target": 17
+    },
+    {
+      "source": 60,
+      "target": 25
+    },
+    {
+      "source": 60,
+      "target": 36
+    },
+    {
+      "source": 60,
+      "target": 37
+    },
+    {
+      "source": 61,
+      "target": 10
+    },
+    {
+      "source": 61,
+      "target": 26
+    },
+    {
+      "source": 61,
+      "target": 63
+    },
+    {
+      "source": 61,
+      "target": 64
+    },
+    {
+      "source": 62,
+      "target": 19
+    },
+    {
+      "source": 62,
+      "target": 29
+    },
+    {
+      "source": 62,
+      "target": 30
+    },
+    {
+      "source": 63,
+      "target": 10
+    },
+    {
+      "source": 63,
+      "target": 64
+    },
+    {
+      "source": 64,
+      "target": 49
+    },
+    {
+      "source": 64,
+      "target": 24
+    },
+    {
+      "source": 64,
+      "target": 61
+    },
+    {
+      "source": 64,
+      "target": 42
+    },
+    {
+      "source": 65,
+      "target": 11
+    },
+    {
+      "source": 65,
+      "target": 12
+    },
+    {
+      "source": 65,
+      "target": 15
+    },
+    {
+      "source": 65,
+      "target": 16
+    },
+    {
+      "source": 65,
+      "target": 51
+    },
+    {
+      "source": 66,
+      "target": 11
+    },
+    {
+      "source": 66,
+      "target": 12
+    },
+    {
+      "source": 66,
+      "target": 15
+    },
+    {
+      "source": 66,
+      "target": 16
+    },
+    {
+      "source": 66,
+      "target": 31
+    },
+    {
+      "source": 66,
+      "target": 40
+    },
+    {
+      "source": 66,
+      "target": 50
+    },
+    {
+      "source": 66,
+      "target": 51
+    },
+    {
+      "source": 66,
+      "target": 65
+    },
+    {
+      "source": 67,
+      "target": 11
+    },
+    {
+      "source": 67,
+      "target": 13
+    },
+    {
+      "source": 67,
+      "target": 16
+    },
+    {
+      "source": 67,
+      "target": 40
+    },
+    {
+      "source": 68,
+      "target": 69
+    },
+    {
+      "source": 68,
+      "target": 70
+    },
+    {
+      "source": 68,
+      "target": 71
+    },
+    {
+      "source": 68,
+      "target": 23
+    },
+    {
+      "source": 68,
+      "target": 26
+    },
+    {
+      "source": 69,
+      "target": 68
+    },
+    {
+      "source": 69,
+      "target": 70
+    },
+    {
+      "source": 69,
+      "target": 71
+    },
+    {
+      "source": 69,
+      "target": 23
+    },
+    {
+      "source": 69,
+      "target": 26
+    },
+    {
+      "source": 70,
+      "target": 68
+    },
+    {
+      "source": 70,
+      "target": 69
+    },
+    {
+      "source": 70,
+      "target": 71
+    },
+    {
+      "source": 70,
+      "target": 23
+    },
+    {
+      "source": 70,
+      "target": 26
+    },
+    {
+      "source": 71,
+      "target": 68
+    },
+    {
+      "source": 71,
+      "target": 69
+    },
+    {
+      "source": 71,
+      "target": 70
+    },
+    {
+      "source": 71,
+      "target": 23
+    },
+    {
+      "source": 71,
+      "target": 26
+    }
+  ]
+}
