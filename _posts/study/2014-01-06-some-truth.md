@@ -14,6 +14,7 @@ tags: []
 5. Elegance is not optional.- Richard O'Keefe
 6. Perfect is the enemy of good.- Voltairo
 7. Syntactic sugar causes cancer of the semicolon.- Alan Perlis
+8. Planning is just a way of avoiding figuring out what to do next.- Rodney Allen Brooks
 
 ***
 
