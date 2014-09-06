@@ -29,14 +29,14 @@ I really love to try different programming languages, so I decided to add this p
 ### Currently Pursuing:
 
 - Clojure
+- Ocaml
 - Scala
 - Haskell
-- Scss
 
 ### On My Radar
 
 - Common Lisp
-- OCaml
 - Elixir
 - Arc
 - Dart
+- Scss
