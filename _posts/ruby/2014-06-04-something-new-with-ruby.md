@@ -56,18 +56,22 @@ Shovel(<<) operator modifies the original string, while += doesn't
 
 String.to_sym
 
+#### I/O
+
+```ruby
+$stdout.reopen 'filename' # redirect standard ouput to a file
+$stdin.noecho &:gets # runs gets without echoing input to the screen
+$stdin.reopen '/dev/tty' # redirect standard output to the terminal
+```
+
 ####Questions?
 
 arr = [1,2,3,4]
 why arr[4..0] == []
 but arr[5..0] == nil
 
-bonus question @about_hashes.rb:43
-
 what's with single quotes **sometimes** interpret escape characters
 
 @about_symbols.rb:34
-
-@about_regular_expressions.rb:35
 
 @about_constants.rb:87
