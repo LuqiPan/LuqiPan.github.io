@@ -31,10 +31,10 @@ I really love to try different programming languages, so I decided to add this p
 - Clojure
 - Ocaml
 - Scala
-- Haskell
 
 ### On My Radar
 
+- Haskell
 - Common Lisp
 - Elixir
 - Arc
