@@ -33,3 +33,15 @@ tags: []
 
     git submodule init
     git submodule update
+
+#### Changelist
+
+    g; " jump back
+    g, " jump forwards
+    :changes
+
+#### Jumplist
+
+    ctrl-o " back
+    ctrl-i " forward
+    ctrl-] " follow link in help
