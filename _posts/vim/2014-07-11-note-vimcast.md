@@ -45,3 +45,8 @@ tags: []
     ctrl-o " back
     ctrl-i " forward
     ctrl-] " follow link in help
+
+#### Visual Block
+
+    ctrl-v " like visual mode but select a block
+    :s/\%V_/ /g " match only on the selected block
