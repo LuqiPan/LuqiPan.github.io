@@ -50,3 +50,12 @@ tags: []
 
     ctrl-v " like visual mode but select a block
     :s/\%V_/ /g " match only on the selected block
+
+#### Modal Editing
+
+Implicit motion command | Longhand equivalent
+c{motion} | d{motion}i
+C | d$a
+s | xi
+S | ^C
+I | ^i
