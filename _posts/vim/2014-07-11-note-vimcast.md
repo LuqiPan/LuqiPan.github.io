@@ -59,3 +59,17 @@ C | d$a
 s | xi
 S | ^C
 I | ^i
+
+#### File Explorer
+
+lazy | open file explorer
+`:e.` | at current working directory
+`:E` | at directory of current file
+
+##### Manipulating the filesystem
+
+command | action
+% | create a new file
+d | create a new directory
+R | rename the file/directory
+D | delete the file/directory
