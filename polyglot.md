@@ -28,9 +28,9 @@ I really love to try different programming languages, so I decided to add this p
 
 ### Currently Pursuing:
 
-- Clojure
-- Ocaml
-- Scala
+- Clojure (it's a modern Lisp)
+- OCaml (write TCP/IP library in OCaml)
+- Scala (write a STM library in Scala)
 
 ### On My Radar
 
