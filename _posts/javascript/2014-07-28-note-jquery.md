@@ -24,7 +24,7 @@ tags: []
 
 ```javascript
 if ($('div.foo').length) {
-
+  // do things
 }
 ```
 
