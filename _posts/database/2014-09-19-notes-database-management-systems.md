@@ -8,4 +8,4 @@ tags: []
 
 - relational algebra <=> relational calculus
 - procedural = imperative
-- Datalog added recursion which relational calculus can't do
+- Datalog adds recursion which relational calculus can't do
