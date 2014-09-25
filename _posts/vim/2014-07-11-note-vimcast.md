@@ -66,10 +66,19 @@ lazy | open file explorer
 `:e.` | at current working directory
 `:E` | at directory of current file
 
-##### Manipulating the filesystem
+#### Manipulating the filesystem
 
 command | action
 % | create a new file
 d | create a new directory
 R | rename the file/directory
 D | delete the file/directory
+
+#### Spell Checking
+
+- `:set spell` to toggle it on and off
+- `]s` to proceed to the next error
+- `[s` previous error
+- `z=` get a list of suggested corrections
+- `zg` add a word to the `spellfile`
+- `zw` remove a word from the spelling dictionary
