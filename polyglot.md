@@ -7,6 +7,8 @@ title: Polyglot
 
 I really love to try different programming languages, so I decided to add this page to record my path to polyglot.
 
+***
+
 ### Under My Belt:
 
 - Ruby
@@ -28,7 +30,7 @@ I really love to try different programming languages, so I decided to add this p
 
 ### Currently Pursuing:
 
-- Clojure (it's a modern Lisp, and I like it)
+- Clojure (it's a modern Lisp, and I like it. also there's constantly new ideas brought up by Rich Hickey, which is great!)
 - OCaml (write TCP/IP library in OCaml, for CSCI1680)
 - Scala (write a STM library in Scala, for Reading and Research)
 
