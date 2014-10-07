@@ -13,3 +13,4 @@ tags: []
 - cannonical cover algorithm for functional dependencies(search about it)
 - materialize
 - extension language for SQL(PL/SQL, PL/pgSQL)
+- dependency preservation
