@@ -14,3 +14,4 @@ tags: []
 - materialize
 - extension language for SQL(PL/SQL, PL/pgSQL)
 - dependency preservation
+- always close PreparedStatement and ResultSet for JDBC when working with Java, or you'll get memory leak
