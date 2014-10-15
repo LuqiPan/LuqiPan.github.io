@@ -13,3 +13,4 @@ tags: []
 - IP packet header length: in 32-bit units
 - Fragment offset?
 - delete when metric = 16?
+- IGP EGP BGP?
