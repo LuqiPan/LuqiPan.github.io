@@ -15,3 +15,7 @@ tags: []
 - extension language for SQL(PL/SQL, PL/pgSQL)
 - dependency preservation
 - always close PreparedStatement and ResultSet for JDBC when working with Java, or you'll get memory leak
+- Calculate closures:
+
+    - Attribute closures
+    - Armstrong's axioms
