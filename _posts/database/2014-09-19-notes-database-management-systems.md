@@ -13,7 +13,7 @@ tags: []
 - cannonical cover algorithm for functional dependencies(search about it)
 - materialize
 - extension language for SQL(PL/SQL, PL/pgSQL)
-- dependency preservation
+- Lossless joins; Dependency preservation; Redundancy Avoidance
 - always close PreparedStatement and ResultSet for JDBC when working with Java, or you'll get memory leak
 - Calculate closures:
 
