@@ -19,3 +19,5 @@ tags: []
 
     - Attribute closures
     - Armstrong's axioms
+
+- 3NF? Didn't mention it at all
