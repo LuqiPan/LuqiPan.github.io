@@ -30,9 +30,9 @@ Address for link layer: MAC address; Address for IP: IP address
 
 ##### 02. Layers
 
-Circuit switching: guaranteed allocation; low space overhead; easy to reason about | failures: must re-establish connection; no graceful degration; waste: allocate for peak; set up time long
-
-Packet switching: high utilization; flexible | unfair; unpredictable; different paths for each packet
+Method | advantage | disadvantage
+Circuit switching | guaranteed allocation; low space overhead; easy to reason about | failures: must re-establish connection; no graceful degration; waste: allocate for peak; set up time long
+Packet switching | high utilization; flexible | unfair; unpredictable; different paths for each packet
 
 ##### 03. Physical Layer
 
