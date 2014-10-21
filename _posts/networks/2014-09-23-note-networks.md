@@ -78,3 +78,68 @@ Drawback: length get corrupted
 CRC checksum helps detect error
 
 Clock-based: 125 us, encode with NRZ but XOR payload with 127-bit string to ensure lots of transitions
+
+#### Link Layer
+
+##### Metrics
+
+Throughput | number of bits received per unit of time
+Good put | Useful bits received per unit of time
+Latency | How long for message to cross network (Process+Queue+Transmit+Propagation)
+Jitter | variation in latency
+
+##### At Least Once Semantics
+
+Stop and Wait Protocol | Duplicate data; Duplicate acks; Slow; Timeout hard to set
+
+Duplicate data: add sequence numbers
+
+##### At Most Once Semantics
+
+Uniquely identify each packet
+
+##### Sliding Window Protocol
+
+How big is the window? "Bandwidth-Delay Product" BW B/s x RTT s
+
+Sender:
+
+- send window size (SWS)
+- last acknowledgment received (LAR)
+- last frame sent (LFS)
+
+- Invariant LFS - LAR <= SWS
+- Advance LAR when ACK arrives
+- Buffer up to SWS frames
+
+Receiver:
+
+- receive window size (RWS)
+- largest acceptable frame (LAF)
+- last frame received (LFR)
+
+- Invariant LAF - LFR <= RWS
+- cumulative ACKs
+
+Tuning send window
+
+SWS- fill the pipe
+RWS- 1 <= RWS <= SWS
+SWS <= max valid seq# / 2
+
+##### Error Detection
+
+##### Hamming distance
+
+If min HD between valid codewords is d:
+
+- can detect d-1 bit error
+- can correct _(d-1)/2_ bit error (round down)
+
+2-D Parity
+
+##### IP Checksum
+
+n-bit code should capture all but 2^-n fraction of errors- Why?
+
+##### CRC - Error Detection with Polynomials
