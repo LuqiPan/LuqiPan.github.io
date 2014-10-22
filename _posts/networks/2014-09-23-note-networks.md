@@ -154,3 +154,68 @@ n-bit code should capture all but 2^-n fraction of errors- Why?
 ##### Ethernet
 
 Addressing: MAC address
+
+Collision detection
+
+10Base2:
+
+- Manchester encoding- for constant average voltage so that it can be detected
+- if collision, jam for 32 bits
+- transmission time >= 2 x propagation delay
+- exponential backoff nth time k x 51.2us, for k = 0 .. 2^min(n,10)-1
+- capture effect
+
+Token Ring
+
+- Interface Cards: Hardware relay
+
+##### Switching
+
+- Virtual circuit switching
+- Datagram Switching
+- Source Routing
+
+##### Virtual circuit switching
+
+- Explicit set-up and tear down phases
+- connection-oriented model
+- one RTT before sending first packet
+
+##### Datagram switching
+
+- connectionless model
+- no delay for connection setup
+
+##### Source routing
+
+- packets carry entire route: ports
+
+##### Bridging
+
+Learning Bridges
+
+bridges | same broadcast domain | copy frames
+repeaters | same broadcast and collision domain | copy signals
+
+##### Dealing with loops
+
+Spanning Tree Protocol
+
+- Doesn't scale
+- Broadcast doesn't scale
+- no way to route around congested links
+
+##### VLAN
+
+Topology doesn't have to mirror physical locations
+
+##### Switch architecture
+
+Cut-through | decrease latency | can waste transmission(optimistic approach)
+Store and forward | high latency | pessimistic approach
+
+##### Buffering
+
+- head-of-line blocking
+
+
