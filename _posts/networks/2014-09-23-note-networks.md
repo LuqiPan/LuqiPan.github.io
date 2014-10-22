@@ -218,7 +218,7 @@ Store and forward | high latency | pessimistic approach
 
 - head-of-line blocking
 
-#### 07 IP
+#### IP
 
 ##### ARP- address resolution protocol
 
@@ -229,3 +229,7 @@ Store and forward | high latency | pessimistic approach
 ##### ICMP- internet control message protocol
 
 A protocol runs on top of IP
+
+#### Intra-domain Routing
+
+#### Inter-domain Routing
