@@ -143,3 +143,14 @@ If min HD between valid codewords is d:
 n-bit code should capture all but 2^-n fraction of errors- Why?
 
 ##### CRC - Error Detection with Polynomials
+
+#### 05 Switching
+
+##### Media Access Control
+
+- Partitioned Access
+- Random Access
+
+##### Ethernet
+
+Addressing: MAC address
