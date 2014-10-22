@@ -218,4 +218,14 @@ Store and forward | high latency | pessimistic approach
 
 - head-of-line blocking
 
+#### 07 IP
 
+##### ARP- address resolution protocol
+
+##### DHCP- dynamic host configuration protocol: for obtaining host IP addresses
+
+##### NAT- network address translation
+
+##### ICMP- internet control message protocol
+
+A protocol runs on top of IP
