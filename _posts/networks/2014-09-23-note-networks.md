@@ -79,7 +79,7 @@ CRC checksum helps detect error
 
 Clock-based: 125 us, encode with NRZ but XOR payload with 127-bit string to ensure lots of transitions
 
-#### Link Layer
+#### 04.Link Layer
 
 ##### Metrics
 
@@ -144,7 +144,7 @@ n-bit code should capture all but 2^-n fraction of errors- Why?
 
 ##### CRC - Error Detection with Polynomials
 
-#### 05 Switching
+#### 05. Switching
 
 ##### Media Access Control
 
@@ -218,7 +218,7 @@ Store and forward | high latency | pessimistic approach
 
 - head-of-line blocking
 
-#### IP
+#### 07. IP
 
 ##### ARP- address resolution protocol
 
@@ -230,6 +230,6 @@ Store and forward | high latency | pessimistic approach
 
 A protocol runs on top of IP
 
-#### Intra-domain Routing
+#### 08. Intra-domain Routing
 
-#### Inter-domain Routing
+#### 09. Inter-domain Routing
