@@ -233,3 +233,11 @@ A protocol runs on top of IP
 #### 08. Intra-domain Routing
 
 #### 09. Inter-domain Routing
+
+### TCP
+
+- Sequence number is the number for the first of byte of data carried in that segmant
+- Acknowledge number is the next sequence number expected
+- RST: when receiver receives a segment it did not expect to receive
+- Handling lost ACK packet before ESTAB
+- Biggest advised window: 2^16 - 1, buffer size: 2^16
