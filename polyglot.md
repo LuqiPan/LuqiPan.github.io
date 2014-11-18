@@ -33,10 +33,10 @@ I really love to try different programming languages, so I decided to add this p
 - Clojure (it's a modern Lisp, and I like it. also there's constantly new ideas brought up by Rich Hickey, which is great!)
 - OCaml (write TCP/IP library in OCaml, for CSCI1680)
 - Scala (write a STM library in Scala, for Reading and Research)
+- Haskell (Strongly typed language FTW)
 
 ### On My Radar
 
-- Haskell
 - Common Lisp
 - Elixir
 - Arc
